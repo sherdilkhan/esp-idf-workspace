@@ -1,0 +1,1805 @@
+!SESSION 2022-09-18 00:32:11.968 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.14.1
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.ui 2 0 2022-09-18 00:32:18.792
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-18 00:32:18.792
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2022-09-18 00:32:19.283
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-18 00:32:19.283
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-18 00:32:23.699
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-18 00:32:23.711
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-18 00:32:23.712
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-18 00:32:23.712
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-09-18 00:32:23.745
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sherd'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:23.760
+!MESSAGE Eclipse Install location::file:/C:/Espressif/tools/espressif-ide/2.4.2/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:23.782
+!MESSAGE Updating environment variables with key:IDF_PATH value:C:/Espressif/frameworks/esp-idf-v4.4/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:23.831
+!MESSAGE Executing C:/Espressif/python_env/idf4.4_py3.8_env/Scripts/python.exe C:\Espressif\frameworks\esp-idf-v4.4\tools\idf_tools.py export --format=key-value
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:24.380
+!MESSAGE OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf4.4_py3.8_env
+PATH=C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:24.381
+!MESSAGE Key: OPENOCD_SCRIPTS Value: C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\share\openocd\scripts
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:24.381
+!MESSAGE Updating environment variables with key:OPENOCD_SCRIPTS value:C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\share\openocd\scripts
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:24.384
+!MESSAGE Key: IDF_CCACHE_ENABLE Value: 1
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:24.385
+!MESSAGE Updating environment variables with key:IDF_CCACHE_ENABLE value:1
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:24.387
+!MESSAGE Key: IDF_PYTHON_ENV_PATH Value: C:\Espressif\python_env\idf4.4_py3.8_env
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:24.388
+!MESSAGE Updating environment variables with key:IDF_PYTHON_ENV_PATH value:C:\Espressif\python_env\idf4.4_py3.8_env
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:24.390
+!MESSAGE Key: PATH Value: C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:24.391
+!MESSAGE Updating environment variables with key:PATH value:C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\PROGRA~2\FANUC\Shared\UTILIT~1;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\PROGRA~2\FANUC\WinOLPC\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Users\sherd\AppData\Local\Microsoft\WindowsApps;C:\Users\sherd\AppData\Local\GitHubDesktop\bin;C:\Espressif\tools\idf-git\2.34.2\cmd
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:24.794
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:24.795
+!MESSAGE idf_tools.py path: C:/Espressif/frameworks/esp-idf-v4.4//tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:24.796
+!MESSAGE [C:\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe, C:/Espressif/frameworks/esp-idf-v4.4//tools/idf_tools.py, export, --format=key-value]
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:25.133
+!MESSAGE idf_tools.py export output: WARNING: Git was not found
+OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf4.4_py3.8_env
+PATH=C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:25.133
+!MESSAGE PATH: C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:25.133
+!MESSAGE [C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%]
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:25.294
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:25.295
+!MESSAGE idf_tools.py path: C:/Espressif/frameworks/esp-idf-v4.4//tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:25.296
+!MESSAGE [C:\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe, C:/Espressif/frameworks/esp-idf-v4.4//tools/idf_tools.py, export, --format=key-value]
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:25.653
+!MESSAGE idf_tools.py export output: WARNING: Git was not found
+OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf4.4_py3.8_env
+PATH=C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:25.654
+!MESSAGE PATH: C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:25.654
+!MESSAGE [C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%]
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:36.797
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:36.843
+!MESSAGE IDF path C:/Espressif/frameworks/esp-idf-v4.4/
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:38.202
+!MESSAGE error: cannot spawn git: No such file or directory
+fatal: Could not run 'git status --porcelain=2' in submodule vendor/c_exception
+fatal: 'git status --porcelain=2' failed in submodule components/cmock/CMock
+WARNING: Git version unavailable, reading from source
+ESP-IDF v4.4.0
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:46.723
+!MESSAGE Source Template path:null
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 00:32:47.253
+!MESSAGE Indexed '1' (1 sources, 0 headers) in 0.354 sec: 12 declarations; 26 references; 7 unresolved inclusions; 0 syntax errors; 17 unresolved names (31%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:47.507
+!MESSAGE Project Name:: 1
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:47.507
+!MESSAGE Project:: P/1
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:32:47.510
+!MESSAGE sdkconfig.json file couldnt find {0}
+!SESSION 2022-09-18 00:39:33.561 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.14.1
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 4 567 2022-09-18 00:40:11.063
+!MESSAGE Workspace restored, but some problems occurred.
+!SUBENTRY 1 org.eclipse.core.resources 4 567 2022-09-18 00:40:11.063
+!MESSAGE Could not read metadata for '1'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/1)[567]: java.lang.Exception: The project description file (.project) for '1' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2480)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2231)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:475)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.lambda$2(BundleContextImpl.java:808)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:802)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:759)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1019)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:404)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:384)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:471)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:403)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SUBENTRY 2 org.eclipse.core.resources 4 567 2022-09-18 00:40:11.063
+!MESSAGE The project description file (.project) for '1' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+!STACK 0
+java.lang.Exception: The project description file (.project) for '1' is missing.  This file contains important information about the project.  The project will not function properly until this file is restored.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:908)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:888)
+	at org.eclipse.core.internal.resources.SaveManager.restoreMetaInfo(SaveManager.java:868)
+	at org.eclipse.core.internal.resources.SaveManager.restore(SaveManager.java:724)
+	at org.eclipse.core.internal.resources.SaveManager.startup(SaveManager.java:1555)
+	at org.eclipse.core.internal.resources.Workspace.startup(Workspace.java:2480)
+	at org.eclipse.core.internal.resources.Workspace.open(Workspace.java:2231)
+	at org.eclipse.core.resources.ResourcesPlugin.start(ResourcesPlugin.java:475)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.lambda$2(BundleContextImpl.java:808)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:802)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:759)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:1019)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:365)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:605)
+	at org.eclipse.osgi.container.Module.start(Module.java:468)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:404)
+	at org.eclipse.osgi.internal.hooks.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:117)
+	at org.eclipse.osgi.internal.loader.classpath.ClasspathManager.findLocalClass(ClasspathManager.java:570)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.findLocalClass(ModuleClassLoader.java:335)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:384)
+	at org.eclipse.osgi.internal.loader.sources.SingleSourcePackage.loadClass(SingleSourcePackage.java:41)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass0(BundleLoader.java:471)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:403)
+	at org.eclipse.osgi.internal.loader.ModuleClassLoader.loadClass(ModuleClassLoader.java:168)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:153)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 2 0 2022-09-18 00:40:11.687
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-18 00:40:11.687
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2022-09-18 00:40:12.210
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-18 00:40:12.210
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-18 00:40:16.211
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-18 00:40:16.218
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-18 00:40:16.219
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-18 00:40:16.222
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-09-18 00:40:16.257
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sherd'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:40:16.269
+!MESSAGE Ignoring esp_idf.json settings as it was configured earilier.
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:41:12.558
+!MESSAGE Project Name:: c3_blink
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:41:12.559
+!MESSAGE Project:: P/c3_blink
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:41:13.440
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:41:13.447
+!MESSAGE idf_tools.py path: C:/Espressif/frameworks/esp-idf-v4.4//tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:41:13.448
+!MESSAGE [C:\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe, C:/Espressif/frameworks/esp-idf-v4.4//tools/idf_tools.py, export, --format=key-value]
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:41:13.859
+!MESSAGE idf_tools.py export output: WARNING: Git was not found
+OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf4.4_py3.8_env
+PATH=C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:41:13.859
+!MESSAGE PATH: C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 00:41:13.860
+!MESSAGE [C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-09-18 00:41:52.119
+!MESSAGE No remedy found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-09-18 00:41:52.265
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-09-18 00:41:52.265
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:52.265
+!MESSAGE Software being installed: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:52.265
+!MESSAGE Missing requirement: Embedded C/C++ Debugging GDB Core Plug-in 5.1.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.core 5.1.0.202102181132) requires 'osgi.bundle; org.eclipse.embedcdt.packs.core 3.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 00:41:52.265
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:52.265
+!MESSAGE From: ESP-IDF OpenOCD Debugging 1.0.1.202208110735 (com.espressif.idf.debug.gdbjtag.openocd 1.0.1.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:52.265
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.debug.gdbjtag.core 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 00:41:52.265
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:52.265
+!MESSAGE From: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:52.265
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.espressif.idf.debug.gdbjtag.openocd [1.0.1.202208110735,1.0.1.202208110735]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-09-18 00:41:52.392
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-09-18 00:41:52.392
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:52.392
+!MESSAGE Software being installed: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:52.392
+!MESSAGE Missing requirement: Embedded C/C++ Debugging GDB Core Plug-in 5.1.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.core 5.1.0.202102181132) requires 'osgi.bundle; org.eclipse.embedcdt.packs.core 3.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 00:41:52.392
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:52.392
+!MESSAGE From: ESP-IDF OpenOCD Debugging 1.0.1.202208110735 (com.espressif.idf.debug.gdbjtag.openocd 1.0.1.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:52.392
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.debug.gdbjtag.core 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 00:41:52.392
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:52.392
+!MESSAGE From: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:52.392
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.espressif.idf.debug.gdbjtag.openocd [1.0.1.202208110735,1.0.1.202208110735]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-09-18 00:41:53.909
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-09-18 00:41:53.909
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:53.910
+!MESSAGE Software being installed: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:53.910
+!MESSAGE Missing requirement: Embedded C/C++ Debugging GDB Core Plug-in 5.1.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.core 5.1.0.202102181132) requires 'osgi.bundle; org.eclipse.embedcdt.packs.core 3.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 00:41:53.910
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:53.910
+!MESSAGE From: ESP-IDF OpenOCD Debugging 1.0.1.202208110735 (com.espressif.idf.debug.gdbjtag.openocd 1.0.1.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:53.910
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.debug.gdbjtag.core 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 00:41:53.910
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:53.910
+!MESSAGE From: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:53.910
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.espressif.idf.debug.gdbjtag.openocd [1.0.1.202208110735,1.0.1.202208110735]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-09-18 00:41:53.913
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-09-18 00:41:53.913
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:53.913
+!MESSAGE Software being installed: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:53.913
+!MESSAGE Missing requirement: Embedded C/C++ Debugging GDB Core Plug-in 5.1.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.core 5.1.0.202102181132) requires 'osgi.bundle; org.eclipse.embedcdt.packs.core 3.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 00:41:53.913
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:53.913
+!MESSAGE From: ESP-IDF OpenOCD Debugging 1.0.1.202208110735 (com.espressif.idf.debug.gdbjtag.openocd 1.0.1.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:53.913
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.debug.gdbjtag.core 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 00:41:53.913
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:53.913
+!MESSAGE From: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 00:41:53.913
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.espressif.idf.debug.gdbjtag.openocd [1.0.1.202208110735,1.0.1.202208110735]
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 00:41:55.572
+!MESSAGE Indexed 'c3_pixel_throw' (876 sources, 195 headers) in 12.9 sec: 58,528 declarations; 244,656 references; 5,415 unresolved inclusions; 1,197 syntax errors; 85,221 unresolved names (22%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 00:42:06.886
+!MESSAGE Indexed 'c3_blink' (877 sources, 195 headers) in 11.3 sec: 58,580 declarations; 244,812 references; 5,422 unresolved inclusions; 1,198 syntax errors; 85,309 unresolved names (22%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 00:42:14.648
+!MESSAGE Indexed 'c3_vsync_test1' (876 sources, 195 headers) in 7.72 sec: 58,529 declarations; 244,678 references; 5,415 unresolved inclusions; 1,199 syntax errors; 85,236 unresolved names (22%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 00:42:21.859
+!MESSAGE Indexed 'test_26mar' (876 sources, 195 headers) in 7.17 sec: 58,536 declarations; 244,664 references; 5,415 unresolved inclusions; 1,197 syntax errors; 85,236 unresolved names (22%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 00:42:28.374
+!MESSAGE Indexed 'c3_vga_hsync' (876 sources, 195 headers) in 6.48 sec: 58,530 declarations; 244,666 references; 5,415 unresolved inclusions; 1,198 syntax errors; 85,230 unresolved names (22%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 00:42:34.922
+!MESSAGE Indexed 'blacksigma-main' (876 sources, 195 headers) in 6.54 sec: 58,536 declarations; 244,683 references; 5,415 unresolved inclusions; 1,198 syntax errors; 85,240 unresolved names (22%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 00:42:41.514
+!MESSAGE Indexed 'c3_VGA_2' (875 sources, 195 headers) in 6.56 sec: 58,524 declarations; 244,638 references; 5,408 unresolved inclusions; 1,197 syntax errors; 85,219 unresolved names (22%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 00:42:48.335
+!MESSAGE Indexed 'c3_intr_test' (876 sources, 195 headers) in 6.79 sec: 58,533 declarations; 244,681 references; 5,415 unresolved inclusions; 1,198 syntax errors; 85,244 unresolved names (22%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 00:42:54.903
+!MESSAGE Indexed 'c3_vga_4' (876 sources, 195 headers) in 6.53 sec: 58,528 declarations; 244,665 references; 5,415 unresolved inclusions; 1,198 syntax errors; 85,235 unresolved names (22%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 00:43:02.017
+!MESSAGE Indexed 'RTOS_Trial_Code' (978 sources, 201 headers) in 7.08 sec: 63,125 declarations; 257,506 references; 6,231 unresolved inclusions; 1,296 syntax errors; 95,216 unresolved names (23%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 00:43:08.526
+!MESSAGE Indexed 'c3_VGA' (876 sources, 195 headers) in 6.48 sec: 58,536 declarations; 244,664 references; 5,415 unresolved inclusions; 1,197 syntax errors; 85,236 unresolved names (22%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 00:43:15.031
+!MESSAGE Indexed 'hello_world' (876 sources, 195 headers) in 6.47 sec: 58,528 declarations; 244,660 references; 5,414 unresolved inclusions; 1,197 syntax errors; 85,231 unresolved names (22%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 00:43:21.632
+!MESSAGE Indexed 'c3_hsync_sense' (876 sources, 195 headers) in 6.57 sec: 58,529 declarations; 244,660 references; 5,415 unresolved inclusions; 1,198 syntax errors; 85,232 unresolved names (22%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 00:43:21.644
+!MESSAGE Indexed 'test' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 00:43:28.956
+!MESSAGE Indexed 'c3_vga_3' (978 sources, 201 headers) in 7.26 sec: 63,115 declarations; 257,513 references; 6,231 unresolved inclusions; 1,299 syntax errors; 95,221 unresolved names (23%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 00:43:35.530
+!MESSAGE Indexed 'c3_vga_5' (876 sources, 195 headers) in 6.54 sec: 58,532 declarations; 244,694 references; 5,415 unresolved inclusions; 1,198 syntax errors; 85,245 unresolved names (22%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 00:43:41.913
+!MESSAGE Indexed 'c3_vga_out' (876 sources, 195 headers) in 6.37 sec: 58,536 declarations; 244,664 references; 5,415 unresolved inclusions; 1,197 syntax errors; 85,236 unresolved names (22%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:10:55.076
+!MESSAGE error: cannot spawn git: No such file or directory
+fatal: Could not run 'git status --porcelain=2' in submodule vendor/c_exception
+fatal: 'git status --porcelain=2' failed in submodule components/cmock/CMock
+WARNING: Git version unavailable, reading from source
+ESP-IDF v4.4.0
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:11:12.469
+!MESSAGE Project Name:: c3_hsync_sense
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:11:12.469
+!MESSAGE Project:: P/c3_hsync_sense
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:11:12.470
+!MESSAGE sdkconfig.json file couldnt find {0}
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-09-18 01:11:32.568
+!MESSAGE No remedy found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-09-18 01:11:32.698
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-09-18 01:11:32.698
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:32.698
+!MESSAGE Software being installed: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:32.698
+!MESSAGE Missing requirement: Embedded C/C++ Debugging GDB Core Plug-in 5.1.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.core 5.1.0.202102181132) requires 'osgi.bundle; org.eclipse.embedcdt.packs.core 3.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:11:32.698
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:32.698
+!MESSAGE From: ESP-IDF OpenOCD Debugging 1.0.1.202208110735 (com.espressif.idf.debug.gdbjtag.openocd 1.0.1.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:32.698
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.debug.gdbjtag.core 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:11:32.698
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:32.698
+!MESSAGE From: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:32.698
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.espressif.idf.debug.gdbjtag.openocd [1.0.1.202208110735,1.0.1.202208110735]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-09-18 01:11:32.777
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-09-18 01:11:32.778
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:32.778
+!MESSAGE Software being installed: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:32.778
+!MESSAGE Missing requirement: Embedded C/C++ Debugging GDB Core Plug-in 5.1.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.core 5.1.0.202102181132) requires 'osgi.bundle; org.eclipse.embedcdt.packs.core 3.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:11:32.778
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:32.778
+!MESSAGE From: ESP-IDF OpenOCD Debugging 1.0.1.202208110735 (com.espressif.idf.debug.gdbjtag.openocd 1.0.1.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:32.778
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.debug.gdbjtag.core 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:11:32.778
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:32.778
+!MESSAGE From: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:32.778
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.espressif.idf.debug.gdbjtag.openocd [1.0.1.202208110735,1.0.1.202208110735]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-09-18 01:11:33.974
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-09-18 01:11:33.974
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:33.974
+!MESSAGE Software being installed: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:33.974
+!MESSAGE Missing requirement: Embedded C/C++ Debugging GDB Core Plug-in 5.1.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.core 5.1.0.202102181132) requires 'osgi.bundle; org.eclipse.embedcdt.packs.core 3.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:11:33.974
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:33.974
+!MESSAGE From: ESP-IDF OpenOCD Debugging 1.0.1.202208110735 (com.espressif.idf.debug.gdbjtag.openocd 1.0.1.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:33.974
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.debug.gdbjtag.core 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:11:33.974
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:33.974
+!MESSAGE From: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:33.974
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.espressif.idf.debug.gdbjtag.openocd [1.0.1.202208110735,1.0.1.202208110735]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-09-18 01:11:33.977
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-09-18 01:11:33.977
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:33.977
+!MESSAGE Software being installed: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:33.977
+!MESSAGE Missing requirement: Embedded C/C++ Debugging GDB Core Plug-in 5.1.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.core 5.1.0.202102181132) requires 'osgi.bundle; org.eclipse.embedcdt.packs.core 3.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:11:33.977
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:33.977
+!MESSAGE From: ESP-IDF OpenOCD Debugging 1.0.1.202208110735 (com.espressif.idf.debug.gdbjtag.openocd 1.0.1.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:33.977
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.debug.gdbjtag.core 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:11:33.977
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:33.977
+!MESSAGE From: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:33.977
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.espressif.idf.debug.gdbjtag.openocd [1.0.1.202208110735,1.0.1.202208110735]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-09-18 01:11:57.217
+!MESSAGE No remedy found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-09-18 01:11:57.334
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-09-18 01:11:57.334
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:57.334
+!MESSAGE Software being installed: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:57.334
+!MESSAGE Missing requirement: Embedded C/C++ Debugging GDB Core Plug-in 5.1.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.core 5.1.0.202102181132) requires 'osgi.bundle; org.eclipse.embedcdt.packs.core 3.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:11:57.334
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:57.334
+!MESSAGE From: ESP-IDF OpenOCD Debugging 1.0.1.202208110735 (com.espressif.idf.debug.gdbjtag.openocd 1.0.1.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:57.334
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.debug.gdbjtag.core 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:11:57.334
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:57.334
+!MESSAGE From: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:57.334
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.espressif.idf.debug.gdbjtag.openocd [1.0.1.202208110735,1.0.1.202208110735]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-09-18 01:11:57.414
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-09-18 01:11:57.414
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:57.414
+!MESSAGE Software being installed: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:57.414
+!MESSAGE Missing requirement: Embedded C/C++ Debugging GDB Core Plug-in 5.1.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.core 5.1.0.202102181132) requires 'osgi.bundle; org.eclipse.embedcdt.packs.core 3.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:11:57.414
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:57.414
+!MESSAGE From: ESP-IDF OpenOCD Debugging 1.0.1.202208110735 (com.espressif.idf.debug.gdbjtag.openocd 1.0.1.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:57.414
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.debug.gdbjtag.core 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:11:57.414
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:57.414
+!MESSAGE From: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:57.414
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.espressif.idf.debug.gdbjtag.openocd [1.0.1.202208110735,1.0.1.202208110735]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-09-18 01:11:58.502
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-09-18 01:11:58.502
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:58.502
+!MESSAGE Software being installed: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:58.502
+!MESSAGE Missing requirement: Embedded C/C++ Debugging GDB Core Plug-in 5.1.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.core 5.1.0.202102181132) requires 'osgi.bundle; org.eclipse.embedcdt.packs.core 3.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:11:58.502
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:58.502
+!MESSAGE From: ESP-IDF OpenOCD Debugging 1.0.1.202208110735 (com.espressif.idf.debug.gdbjtag.openocd 1.0.1.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:58.502
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.debug.gdbjtag.core 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:11:58.502
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:58.502
+!MESSAGE From: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:58.502
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.espressif.idf.debug.gdbjtag.openocd [1.0.1.202208110735,1.0.1.202208110735]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-09-18 01:11:58.505
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-09-18 01:11:58.505
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:58.505
+!MESSAGE Software being installed: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:58.505
+!MESSAGE Missing requirement: Embedded C/C++ Debugging GDB Core Plug-in 5.1.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.core 5.1.0.202102181132) requires 'osgi.bundle; org.eclipse.embedcdt.packs.core 3.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:11:58.505
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:58.505
+!MESSAGE From: ESP-IDF OpenOCD Debugging 1.0.1.202208110735 (com.espressif.idf.debug.gdbjtag.openocd 1.0.1.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:58.505
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.debug.gdbjtag.core 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:11:58.505
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:58.505
+!MESSAGE From: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:11:58.505
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.espressif.idf.debug.gdbjtag.openocd [1.0.1.202208110735,1.0.1.202208110735]
+!SESSION 2022-09-18 01:14:28.925 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.14.1
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.ui 2 0 2022-09-18 01:14:41.607
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-18 01:14:41.607
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2022-09-18 01:14:42.480
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-18 01:14:42.480
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-09-18 01:15:05.234
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sherd'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-18 01:15:05.242
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-18 01:15:05.254
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-18 01:15:05.254
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-18 01:15:05.255
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:15:05.258
+!MESSAGE Ignoring esp_idf.json settings as it was configured earilier.
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:15:12.473
+!MESSAGE Project Name:: c3_hsync_sense
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:15:12.475
+!MESSAGE Project:: P/c3_hsync_sense
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:15:13.547
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:15:13.551
+!MESSAGE idf_tools.py path: C:/Espressif/frameworks/esp-idf-v4.4//tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:15:13.553
+!MESSAGE [C:\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe, C:/Espressif/frameworks/esp-idf-v4.4//tools/idf_tools.py, export, --format=key-value]
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:15:14.335
+!MESSAGE idf_tools.py export output: WARNING: Git was not found
+OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf4.4_py3.8_env
+PATH=C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:15:14.336
+!MESSAGE PATH: C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:15:14.337
+!MESSAGE [C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%]
+
+!ENTRY org.eclipse.core.resources 4 2 2022-09-18 01:15:21.234
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Building c3_hsync_sense
+	at com.espressif.idf.core.build.IDFBuildConfiguration.build(IDFBuildConfiguration.java:392)
+	at org.eclipse.cdt.core.build.CBuilder.build(CBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:488)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:565)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:603)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:116)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.lambda$0(LaunchConfigurationDelegate.java:406)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2333)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildProjects(LaunchConfigurationDelegate.java:412)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildForLaunch(LaunchConfigurationDelegate.java:122)
+	at org.eclipse.launchbar.core.target.launch.LaunchConfigurationTargetedDelegate.superBuildForLaunch(LaunchConfigurationTargetedDelegate.java:61)
+	at com.espressif.idf.launch.serial.internal.SerialFlashLaunchConfigDelegate.buildForLaunch(SerialFlashLaunchConfigDelegate.java:249)
+	at org.eclipse.launchbar.ui.internal.commands.BuildActiveCommandHandler$1$1.run(BuildActiveCommandHandler.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.contexts.osgi.EclipseContextOSGi.<init>(EclipseContextOSGi.java:43)
+	at org.eclipse.e4.core.contexts.EclipseContextFactory.createServiceContext(EclipseContextFactory.java:78)
+	at org.eclipse.e4.core.contexts.EclipseContextFactory.getServiceContext(EclipseContextFactory.java:61)
+	at org.eclipse.cdt.jsoncdb.core.CompileCommandsJsonParser.<init>(CompileCommandsJsonParser.java:125)
+	at com.espressif.idf.core.build.IDFBuildConfiguration.processCompileCommandsFile(IDFBuildConfiguration.java:585)
+	at com.espressif.idf.core.build.IDFBuildConfiguration.build(IDFBuildConfiguration.java:373)
+	... 23 more
+!SUBENTRY 1 com.espressif.idf.core 4 0 2022-09-18 01:15:21.235
+!MESSAGE Building c3_hsync_sense
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.contexts.osgi.EclipseContextOSGi.<init>(EclipseContextOSGi.java:43)
+	at org.eclipse.e4.core.contexts.EclipseContextFactory.createServiceContext(EclipseContextFactory.java:78)
+	at org.eclipse.e4.core.contexts.EclipseContextFactory.getServiceContext(EclipseContextFactory.java:61)
+	at org.eclipse.cdt.jsoncdb.core.CompileCommandsJsonParser.<init>(CompileCommandsJsonParser.java:125)
+	at com.espressif.idf.core.build.IDFBuildConfiguration.processCompileCommandsFile(IDFBuildConfiguration.java:585)
+	at com.espressif.idf.core.build.IDFBuildConfiguration.build(IDFBuildConfiguration.java:373)
+	at org.eclipse.cdt.core.build.CBuilder.build(CBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:488)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:565)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:603)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:116)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.lambda$0(LaunchConfigurationDelegate.java:406)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2333)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildProjects(LaunchConfigurationDelegate.java:412)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildForLaunch(LaunchConfigurationDelegate.java:122)
+	at org.eclipse.launchbar.core.target.launch.LaunchConfigurationTargetedDelegate.superBuildForLaunch(LaunchConfigurationTargetedDelegate.java:61)
+	at com.espressif.idf.launch.serial.internal.SerialFlashLaunchConfigDelegate.buildForLaunch(SerialFlashLaunchConfigDelegate.java:249)
+	at org.eclipse.launchbar.ui.internal.commands.BuildActiveCommandHandler$1$1.run(BuildActiveCommandHandler.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 com.espressif.idf.core 4 0 2022-09-18 01:15:21.236
+!MESSAGE Building c3_hsync_sense
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.contexts.osgi.EclipseContextOSGi.<init>(EclipseContextOSGi.java:43)
+	at org.eclipse.e4.core.contexts.EclipseContextFactory.createServiceContext(EclipseContextFactory.java:78)
+	at org.eclipse.e4.core.contexts.EclipseContextFactory.getServiceContext(EclipseContextFactory.java:61)
+	at org.eclipse.cdt.jsoncdb.core.CompileCommandsJsonParser.<init>(CompileCommandsJsonParser.java:125)
+	at com.espressif.idf.core.build.IDFBuildConfiguration.processCompileCommandsFile(IDFBuildConfiguration.java:585)
+	at com.espressif.idf.core.build.IDFBuildConfiguration.build(IDFBuildConfiguration.java:373)
+	at org.eclipse.cdt.core.build.CBuilder.build(CBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:488)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:565)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:603)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:116)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.lambda$0(LaunchConfigurationDelegate.java:406)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2333)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildProjects(LaunchConfigurationDelegate.java:412)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildForLaunch(LaunchConfigurationDelegate.java:122)
+	at org.eclipse.launchbar.core.target.launch.LaunchConfigurationTargetedDelegate.superBuildForLaunch(LaunchConfigurationTargetedDelegate.java:61)
+	at com.espressif.idf.launch.serial.internal.SerialFlashLaunchConfigDelegate.buildForLaunch(SerialFlashLaunchConfigDelegate.java:249)
+	at org.eclipse.launchbar.ui.internal.commands.BuildActiveCommandHandler$1$1.run(BuildActiveCommandHandler.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2022-09-18 01:15:21.240
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 0
+java.lang.NullPointerException
+	at com.espressif.idf.core.IDFCorePlugin.getService(IDFCorePlugin.java:43)
+	at com.espressif.idf.core.resources.ResourceChangeListener.updateLaunchBar(ResourceChangeListener.java:104)
+	at com.espressif.idf.core.resources.ResourceChangeListener$1.visit(ResourceChangeListener.java:59)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:67)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:77)
+	at org.eclipse.core.internal.events.ResourceDelta.accept(ResourceDelta.java:51)
+	at com.espressif.idf.core.resources.ResourceChangeListener.resourceChanged(ResourceChangeListener.java:52)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1503)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2327)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2333)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildProjects(LaunchConfigurationDelegate.java:412)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildForLaunch(LaunchConfigurationDelegate.java:122)
+	at org.eclipse.launchbar.core.target.launch.LaunchConfigurationTargetedDelegate.superBuildForLaunch(LaunchConfigurationTargetedDelegate.java:61)
+	at com.espressif.idf.launch.serial.internal.SerialFlashLaunchConfigDelegate.buildForLaunch(SerialFlashLaunchConfigDelegate.java:249)
+	at org.eclipse.launchbar.ui.internal.commands.BuildActiveCommandHandler$1$1.run(BuildActiveCommandHandler.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-18 01:15:21.247
+!MESSAGE Error
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.internal.core.model.DefaultPathEntryStore.<init>(DefaultPathEntryStore.java:87)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.createDefaultProvider(PathEntryStoreProxy.java:121)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCExtensionProxy.checkUpdateProvider(AbstractCExtensionProxy.java:102)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCExtensionProxy.doHandleEvent(AbstractCExtensionProxy.java:172)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.doHandleEvent(PathEntryStoreProxy.java:152)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCExtensionProxy.handleEvent(AbstractCExtensionProxy.java:159)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.notifyListeners(CProjectDescriptionManager.java:2190)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.fireLoadedEvent(AbstractCProjectDescriptionStorage.java:272)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:267)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:427)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:409)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:403)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:396)
+	at org.eclipse.cdt.internal.core.model.CProject.computeSourceRoots(CProject.java:610)
+	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:631)
+	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:595)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:295)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:272)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.createElement(DeltaProcessor.java:90)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:453)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.processResourceDelta(DeltaProcessor.java:433)
+	at org.eclipse.cdt.internal.core.model.CModelManager.resourceChanged(CModelManager.java:934)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:381)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1503)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2327)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2333)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildProjects(LaunchConfigurationDelegate.java:412)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildForLaunch(LaunchConfigurationDelegate.java:122)
+	at org.eclipse.launchbar.core.target.launch.LaunchConfigurationTargetedDelegate.superBuildForLaunch(LaunchConfigurationTargetedDelegate.java:61)
+	at com.espressif.idf.launch.serial.internal.SerialFlashLaunchConfigDelegate.buildForLaunch(SerialFlashLaunchConfigDelegate.java:249)
+	at org.eclipse.launchbar.ui.internal.commands.BuildActiveCommandHandler$1$1.run(BuildActiveCommandHandler.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 566 2022-09-18 01:15:21.262
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.cdt.core 4 75 2022-09-18 01:15:21.262
+!MESSAGE Errors running builder 'CDT Core Builder' on project 'c3_hsync_sense'.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Building c3_hsync_sense
+	at com.espressif.idf.core.build.IDFBuildConfiguration.build(IDFBuildConfiguration.java:392)
+	at org.eclipse.cdt.core.build.CBuilder.build(CBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:488)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:565)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:603)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:116)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.lambda$0(LaunchConfigurationDelegate.java:406)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2333)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildProjects(LaunchConfigurationDelegate.java:412)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildForLaunch(LaunchConfigurationDelegate.java:122)
+	at org.eclipse.launchbar.core.target.launch.LaunchConfigurationTargetedDelegate.superBuildForLaunch(LaunchConfigurationTargetedDelegate.java:61)
+	at com.espressif.idf.launch.serial.internal.SerialFlashLaunchConfigDelegate.buildForLaunch(SerialFlashLaunchConfigDelegate.java:249)
+	at org.eclipse.launchbar.ui.internal.commands.BuildActiveCommandHandler$1$1.run(BuildActiveCommandHandler.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.contexts.osgi.EclipseContextOSGi.<init>(EclipseContextOSGi.java:43)
+	at org.eclipse.e4.core.contexts.EclipseContextFactory.createServiceContext(EclipseContextFactory.java:78)
+	at org.eclipse.e4.core.contexts.EclipseContextFactory.getServiceContext(EclipseContextFactory.java:61)
+	at org.eclipse.cdt.jsoncdb.core.CompileCommandsJsonParser.<init>(CompileCommandsJsonParser.java:125)
+	at com.espressif.idf.core.build.IDFBuildConfiguration.processCompileCommandsFile(IDFBuildConfiguration.java:585)
+	at com.espressif.idf.core.build.IDFBuildConfiguration.build(IDFBuildConfiguration.java:373)
+	... 23 more
+!SUBENTRY 2 com.espressif.idf.core 4 0 2022-09-18 01:15:21.262
+!MESSAGE Building c3_hsync_sense
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.contexts.osgi.EclipseContextOSGi.<init>(EclipseContextOSGi.java:43)
+	at org.eclipse.e4.core.contexts.EclipseContextFactory.createServiceContext(EclipseContextFactory.java:78)
+	at org.eclipse.e4.core.contexts.EclipseContextFactory.getServiceContext(EclipseContextFactory.java:61)
+	at org.eclipse.cdt.jsoncdb.core.CompileCommandsJsonParser.<init>(CompileCommandsJsonParser.java:125)
+	at com.espressif.idf.core.build.IDFBuildConfiguration.processCompileCommandsFile(IDFBuildConfiguration.java:585)
+	at com.espressif.idf.core.build.IDFBuildConfiguration.build(IDFBuildConfiguration.java:373)
+	at org.eclipse.cdt.core.build.CBuilder.build(CBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:488)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:565)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:603)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:116)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.lambda$0(LaunchConfigurationDelegate.java:406)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2333)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildProjects(LaunchConfigurationDelegate.java:412)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildForLaunch(LaunchConfigurationDelegate.java:122)
+	at org.eclipse.launchbar.core.target.launch.LaunchConfigurationTargetedDelegate.superBuildForLaunch(LaunchConfigurationTargetedDelegate.java:61)
+	at com.espressif.idf.launch.serial.internal.SerialFlashLaunchConfigDelegate.buildForLaunch(SerialFlashLaunchConfigDelegate.java:249)
+	at org.eclipse.launchbar.ui.internal.commands.BuildActiveCommandHandler$1$1.run(BuildActiveCommandHandler.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 com.espressif.idf.core 4 0 2022-09-18 01:15:21.262
+!MESSAGE Building c3_hsync_sense
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.e4.core.internal.contexts.osgi.EclipseContextOSGi.<init>(EclipseContextOSGi.java:43)
+	at org.eclipse.e4.core.contexts.EclipseContextFactory.createServiceContext(EclipseContextFactory.java:78)
+	at org.eclipse.e4.core.contexts.EclipseContextFactory.getServiceContext(EclipseContextFactory.java:61)
+	at org.eclipse.cdt.jsoncdb.core.CompileCommandsJsonParser.<init>(CompileCommandsJsonParser.java:125)
+	at com.espressif.idf.core.build.IDFBuildConfiguration.processCompileCommandsFile(IDFBuildConfiguration.java:585)
+	at com.espressif.idf.core.build.IDFBuildConfiguration.build(IDFBuildConfiguration.java:373)
+	at org.eclipse.cdt.core.build.CBuilder.build(CBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:296)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:488)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:565)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:603)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:116)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.lambda$0(LaunchConfigurationDelegate.java:406)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2333)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildProjects(LaunchConfigurationDelegate.java:412)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildForLaunch(LaunchConfigurationDelegate.java:122)
+	at org.eclipse.launchbar.core.target.launch.LaunchConfigurationTargetedDelegate.superBuildForLaunch(LaunchConfigurationTargetedDelegate.java:61)
+	at com.espressif.idf.launch.serial.internal.SerialFlashLaunchConfigDelegate.buildForLaunch(SerialFlashLaunchConfigDelegate.java:249)
+	at org.eclipse.launchbar.ui.internal.commands.BuildActiveCommandHandler$1$1.run(BuildActiveCommandHandler.java:110)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-09-18 01:15:21.285
+!MESSAGE The workspace will exit with unsaved changes in this session.
+
+!ENTRY org.eclipse.core.jobs 4 2 2022-09-18 01:15:21.288
+!MESSAGE An internal error occurred during: "Serializing CDT Project settings.. ".
+!STACK 0
+java.lang.IllegalStateException: Workspace is closed.
+	at org.eclipse.core.resources.ResourcesPlugin.getWorkspace(ResourcesPlugin.java:424)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.runAtomic(CProjectDescriptionManager.java:503)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager$4.run(CProjectDescriptionManager.java:484)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:15:59.967
+!MESSAGE Open On-Chip Debugger  v0.11.0-esp32-20211220 (2021-12-20-15:43)
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:16:11.902
+!MESSAGE error: cannot spawn git: No such file or directory
+fatal: Could not run 'git status --porcelain=2' in submodule vendor/c_exception
+fatal: 'git status --porcelain=2' failed in submodule components/cmock/CMock
+WARNING: Git version unavailable, reading from source
+ESP-IDF v4.4.0
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 01:16:17.459
+!MESSAGE Indexed 'c3_vga_4' (876 sources, 195 headers) in 11.4 sec: 58,528 declarations; 244,665 references; 5,415 unresolved inclusions; 1,198 syntax errors; 85,235 unresolved names (22%)
+!SESSION 2022-09-18 01:16:58.251 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.14.1
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-09-18 01:17:13.297
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2022-09-18 01:17:16.567
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-18 01:17:16.567
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2022-09-18 01:17:17.057
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-18 01:17:17.057
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-18 01:17:22.859
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-18 01:17:22.868
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-18 01:17:22.870
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-18 01:17:22.873
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-09-18 01:17:22.905
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sherd'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:17:22.930
+!MESSAGE Ignoring esp_idf.json settings as it was configured earilier.
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:17:23.821
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:17:23.830
+!MESSAGE idf_tools.py path: C:/Espressif/frameworks/esp-idf-v4.4//tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:17:23.833
+!MESSAGE [C:\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe, C:/Espressif/frameworks/esp-idf-v4.4//tools/idf_tools.py, export, --format=key-value]
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:17:24.425
+!MESSAGE Project Name:: c3_vga_4
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:17:24.425
+!MESSAGE Project:: P/c3_vga_4
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:17:24.667
+!MESSAGE idf_tools.py export output: WARNING: Git was not found
+OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf4.4_py3.8_env
+PATH=C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:17:24.668
+!MESSAGE PATH: C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:17:24.669
+!MESSAGE [C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%]
+!SESSION 2022-09-18 01:23:03.818 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.14.1
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.ui 2 0 2022-09-18 01:25:04.854
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-18 01:25:04.854
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2022-09-18 01:25:05.422
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-18 01:25:05.422
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-18 01:25:09.043
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-18 01:25:09.048
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-18 01:25:09.049
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-18 01:25:09.051
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-09-18 01:25:09.086
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sherd'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:25:09.108
+!MESSAGE Ignoring esp_idf.json settings as it was configured earilier.
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:25:38.538
+!MESSAGE Source Template path:C:\Espressif\frameworks\esp-idf-v4.4\workspace\c3_hsync_sense
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:25:38.928
+!MESSAGE Project Name:: c3_hsync_sense
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:25:38.929
+!MESSAGE Project:: P/c3_hsync_sense
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:25:39.656
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:25:39.658
+!MESSAGE idf_tools.py path: C:/Espressif/frameworks/esp-idf-v4.4//tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:25:39.660
+!MESSAGE [C:\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe, C:/Espressif/frameworks/esp-idf-v4.4//tools/idf_tools.py, export, --format=key-value]
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:25:39.991
+!MESSAGE idf_tools.py export output: WARNING: Git was not found
+OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf4.4_py3.8_env
+PATH=C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:25:39.992
+!MESSAGE PATH: C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:25:39.993
+!MESSAGE [C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%]
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 01:25:52.975
+!MESSAGE Indexed 'c3_hsync_sense' (876 sources, 195 headers) in 12.2 sec: 58,529 declarations; 244,660 references; 5,415 unresolved inclusions; 1,198 syntax errors; 85,232 unresolved names (22%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:25:56.428
+!MESSAGE error: cannot spawn git: No such file or directory
+fatal: Could not run 'git status --porcelain=2' in submodule vendor/c_exception
+fatal: 'git status --porcelain=2' failed in submodule components/cmock/CMock
+WARNING: Git version unavailable, reading from source
+ESP-IDF v4.4.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-09-18 01:27:07.213
+!MESSAGE No remedy found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-09-18 01:27:07.316
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-09-18 01:27:07.316
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:07.316
+!MESSAGE Software being installed: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:07.316
+!MESSAGE Missing requirement: Embedded C/C++ Debugging GDB Core Plug-in 5.1.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.core 5.1.0.202102181132) requires 'osgi.bundle; org.eclipse.embedcdt.packs.core 3.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:27:07.316
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:07.316
+!MESSAGE From: ESP-IDF OpenOCD Debugging 1.0.1.202208110735 (com.espressif.idf.debug.gdbjtag.openocd 1.0.1.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:07.316
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.debug.gdbjtag.core 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:27:07.316
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:07.316
+!MESSAGE From: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:07.316
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.espressif.idf.debug.gdbjtag.openocd [1.0.1.202208110735,1.0.1.202208110735]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-09-18 01:27:07.409
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-09-18 01:27:07.409
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:07.409
+!MESSAGE Software being installed: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:07.409
+!MESSAGE Missing requirement: Embedded C/C++ Debugging GDB Core Plug-in 5.1.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.core 5.1.0.202102181132) requires 'osgi.bundle; org.eclipse.embedcdt.packs.core 3.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:27:07.409
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:07.409
+!MESSAGE From: ESP-IDF OpenOCD Debugging 1.0.1.202208110735 (com.espressif.idf.debug.gdbjtag.openocd 1.0.1.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:07.409
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.debug.gdbjtag.core 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:27:07.409
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:07.409
+!MESSAGE From: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:07.409
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.espressif.idf.debug.gdbjtag.openocd [1.0.1.202208110735,1.0.1.202208110735]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-09-18 01:27:08.282
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-09-18 01:27:08.282
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:08.282
+!MESSAGE Software being installed: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:08.282
+!MESSAGE Missing requirement: Embedded C/C++ Debugging GDB Core Plug-in 5.1.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.core 5.1.0.202102181132) requires 'osgi.bundle; org.eclipse.embedcdt.packs.core 3.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:27:08.282
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:08.282
+!MESSAGE From: ESP-IDF OpenOCD Debugging 1.0.1.202208110735 (com.espressif.idf.debug.gdbjtag.openocd 1.0.1.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:08.282
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.debug.gdbjtag.core 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:27:08.282
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:08.282
+!MESSAGE From: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:08.282
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.espressif.idf.debug.gdbjtag.openocd [1.0.1.202208110735,1.0.1.202208110735]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-09-18 01:27:08.285
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-09-18 01:27:08.285
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:08.285
+!MESSAGE Software being installed: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:08.285
+!MESSAGE Missing requirement: Embedded C/C++ Debugging GDB Core Plug-in 5.1.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.core 5.1.0.202102181132) requires 'osgi.bundle; org.eclipse.embedcdt.packs.core 3.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:27:08.285
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:08.285
+!MESSAGE From: ESP-IDF OpenOCD Debugging 1.0.1.202208110735 (com.espressif.idf.debug.gdbjtag.openocd 1.0.1.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:08.285
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.debug.gdbjtag.core 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-18 01:27:08.285
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:08.285
+!MESSAGE From: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-18 01:27:08.286
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.espressif.idf.debug.gdbjtag.openocd [1.0.1.202208110735,1.0.1.202208110735]
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:27:46.487
+!MESSAGE Source Template path:C:\Espressif\frameworks\esp-idf-v4.4\workspace\test_26mar
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 01:27:55.639
+!MESSAGE Indexed 'test_26mar' (977 sources, 201 headers) in 8.1 sec: 63,077 declarations; 257,447 references; 6,213 unresolved inclusions; 1,288 syntax errors; 95,185 unresolved names (23%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:28:00.732
+!MESSAGE Source Template path:C:\Espressif\frameworks\esp-idf-v4.4\workspace\test
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 01:28:00.757
+!MESSAGE Indexed 'test' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:28:16.793
+!MESSAGE Source Template path:C:\Espressif\frameworks\esp-idf-v4.4\workspace\RTOS_Trial_Code
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 01:28:23.765
+!MESSAGE Indexed 'RTOS_Trial_Code' (978 sources, 201 headers) in 6.8 sec: 63,125 declarations; 257,506 references; 6,231 unresolved inclusions; 1,296 syntax errors; 95,216 unresolved names (23%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:28:28.494
+!MESSAGE Source Template path:C:\Espressif\frameworks\esp-idf-v4.4\workspace\hello_world
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 01:28:34.593
+!MESSAGE Indexed 'hello_world' (876 sources, 195 headers) in 5.95 sec: 58,528 declarations; 244,660 references; 5,414 unresolved inclusions; 1,197 syntax errors; 85,231 unresolved names (22%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:28:48.290
+!MESSAGE Source Template path:C:\Espressif\frameworks\esp-idf-v4.4\workspace\c3_vsync_test1
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 01:28:54.962
+!MESSAGE Indexed 'c3_vsync_test1' (876 sources, 195 headers) in 6.52 sec: 58,529 declarations; 244,678 references; 5,415 unresolved inclusions; 1,199 syntax errors; 85,236 unresolved names (22%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:29:16.446
+!MESSAGE Source Template path:C:\Espressif\frameworks\esp-idf-v4.4\workspace\c3_vga_out
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 01:29:23.665
+!MESSAGE Indexed 'c3_vga_out' (876 sources, 195 headers) in 6.14 sec: 58,536 declarations; 244,664 references; 5,415 unresolved inclusions; 1,197 syntax errors; 85,236 unresolved names (22%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:29:31.681
+!MESSAGE Source Template path:C:\Espressif\frameworks\esp-idf-v4.4\workspace\c3_vga_hsync
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 01:29:38.833
+!MESSAGE Indexed 'c3_vga_hsync' (876 sources, 195 headers) in 5.97 sec: 58,530 declarations; 244,666 references; 5,415 unresolved inclusions; 1,198 syntax errors; 85,230 unresolved names (22%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:29:55.687
+!MESSAGE Source Template path:C:\Espressif\frameworks\esp-idf-v4.4\workspace\c3_vga_5
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 01:30:03.090
+!MESSAGE Indexed 'c3_vga_5' (876 sources, 195 headers) in 6.1 sec: 58,532 declarations; 244,694 references; 5,415 unresolved inclusions; 1,198 syntax errors; 85,245 unresolved names (22%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:30:07.550
+!MESSAGE Source Template path:C:\Espressif\frameworks\esp-idf-v4.4\workspace\c3_vga_4
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 01:30:14.350
+!MESSAGE Indexed 'c3_vga_4' (876 sources, 195 headers) in 6.36 sec: 58,528 declarations; 244,665 references; 5,415 unresolved inclusions; 1,198 syntax errors; 85,235 unresolved names (22%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:30:36.463
+!MESSAGE Source Template path:C:\Espressif\frameworks\esp-idf-v4.4\workspace\c3_vga_3
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 01:30:44.694
+!MESSAGE Indexed 'c3_vga_3' (978 sources, 201 headers) in 8.06 sec: 63,115 declarations; 257,513 references; 6,231 unresolved inclusions; 1,299 syntax errors; 95,221 unresolved names (23%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:30:49.102
+!MESSAGE Source Template path:C:\Espressif\frameworks\esp-idf-v4.4\workspace\c3_VGA_2
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 01:30:56.802
+!MESSAGE Indexed 'c3_VGA_2' (875 sources, 195 headers) in 7.55 sec: 58,524 declarations; 244,638 references; 5,408 unresolved inclusions; 1,197 syntax errors; 85,219 unresolved names (22%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:31:09.345
+!MESSAGE Source Template path:C:\Espressif\frameworks\esp-idf-v4.4\workspace\c3_VGA
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 01:31:17.186
+!MESSAGE Indexed 'c3_VGA' (876 sources, 195 headers) in 7.71 sec: 58,536 declarations; 244,664 references; 5,415 unresolved inclusions; 1,197 syntax errors; 85,236 unresolved names (22%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:31:42.883
+!MESSAGE Source Template path:C:\Espressif\frameworks\esp-idf-v4.4\workspace\c3_pixel_throw
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 01:31:51.195
+!MESSAGE Indexed 'c3_pixel_throw' (876 sources, 195 headers) in 6.34 sec: 58,528 declarations; 244,656 references; 5,415 unresolved inclusions; 1,197 syntax errors; 85,221 unresolved names (22%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:31:58.056
+!MESSAGE Source Template path:C:\Espressif\frameworks\esp-idf-v4.4\workspace\c3_intr_test
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 01:32:06.445
+!MESSAGE Indexed 'c3_intr_test' (876 sources, 195 headers) in 8.24 sec: 58,533 declarations; 244,681 references; 5,415 unresolved inclusions; 1,198 syntax errors; 85,244 unresolved names (22%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:33:18.480
+!MESSAGE Source Template path:C:\Espressif\frameworks\esp-idf-v4.4\workspace\c3_blink
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 01:33:25.413
+!MESSAGE Indexed 'c3_blink' (877 sources, 195 headers) in 6.75 sec: 58,580 declarations; 244,812 references; 5,422 unresolved inclusions; 1,198 syntax errors; 85,309 unresolved names (22%)
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-18 01:33:42.857
+!MESSAGE Error
+!STACK 1
+C Model Exception: C Model Status [Element blink_cxx does not exist.]
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getRawPathEntries(PathEntryManager.java:661)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:557)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:530)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:514)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreChangedOperation.executeOperation(PathEntryStoreChangedOperation.java:39)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.pathEntryStoreChanged(PathEntryManager.java:1344)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.notifyListeners(PathEntryStoreProxy.java:67)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.fireContentChangedEvent(PathEntryStoreProxy.java:60)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.postProcessProviderChange(PathEntryStoreProxy.java:146)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCExtensionProxy.checkUpdateProvider(AbstractCExtensionProxy.java:126)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCExtensionProxy.providerRequested(AbstractCExtensionProxy.java:42)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.setRawPathEntries(PathEntryStoreProxy.java:107)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.saveRawPathEntries(PathEntryManager.java:1027)
+	at org.eclipse.cdt.internal.core.model.SetPathEntriesOperation.executeOperation(SetPathEntriesOperation.java:55)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:644)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.setRawPathEntries(PathEntryManager.java:651)
+	at org.eclipse.cdt.core.model.CoreModel.setRawPathEntries(CoreModel.java:922)
+	at org.eclipse.cdt.internal.core.model.CProject.setRawPathEntries(CProject.java:414)
+	at org.eclipse.cdt.cmake.core.CMakeProjectGenerator.generate(CMakeProjectGenerator.java:86)
+	at com.espressif.idf.ui.templates.IDFProjectGenerator.generate(IDFProjectGenerator.java:65)
+	at org.eclipse.tools.templates.ui.TemplateWizard$1.execute(TemplateWizard.java:95)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-09-18 01:33:42.858
+!MESSAGE Element blink_cxx does not exist.
+
+!ENTRY org.eclipse.cdt.core 4 0 2022-09-18 01:33:42.864
+!MESSAGE Error
+!STACK 1
+C Model Exception: C Model Status [Element blink_cxx does not exist.]
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getRawPathEntries(PathEntryManager.java:661)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:557)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:530)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.getResolvedPathEntries(PathEntryManager.java:514)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreChangedOperation.executeOperation(PathEntryStoreChangedOperation.java:39)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:641)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.pathEntryStoreChanged(PathEntryManager.java:1344)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.notifyListeners(PathEntryStoreProxy.java:67)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.fireContentChangedEvent(PathEntryStoreProxy.java:60)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.postProcessProviderChange(PathEntryStoreProxy.java:146)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.doHandleEvent(PathEntryStoreProxy.java:154)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCExtensionProxy.handleEvent(AbstractCExtensionProxy.java:159)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.notifyListeners(CProjectDescriptionManager.java:2190)
+	at org.eclipse.cdt.internal.core.settings.model.SetCProjectDescriptionOperation.executeOperation(SetCProjectDescriptionOperation.java:155)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:644)
+	at org.eclipse.cdt.internal.core.settings.model.AbstractCProjectDescriptionStorage.setProjectDescription(AbstractCProjectDescriptionStorage.java:209)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionStorageManager.setProjectDescription(CProjectDescriptionStorageManager.java:153)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:867)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:817)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.setProjectDescription(CProjectDescriptionManager.java:810)
+	at org.eclipse.cdt.internal.core.CConfigBasedDescriptor$SerializingJob.serialize(CConfigBasedDescriptor.java:144)
+	at org.eclipse.cdt.internal.core.CConfigBasedDescriptor.apply(CConfigBasedDescriptor.java:277)
+	at org.eclipse.cdt.internal.core.CConfigBasedDescriptor.saveProjectData(CConfigBasedDescriptor.java:652)
+	at org.eclipse.cdt.internal.core.model.DefaultPathEntryStore.setRawPathEntries(DefaultPathEntryStore.java:119)
+	at org.eclipse.cdt.internal.core.model.PathEntryStoreProxy.setRawPathEntries(PathEntryStoreProxy.java:108)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.saveRawPathEntries(PathEntryManager.java:1027)
+	at org.eclipse.cdt.internal.core.model.SetPathEntriesOperation.executeOperation(SetPathEntriesOperation.java:55)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.execute(CModelOperation.java:346)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.run(CModelOperation.java:613)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.cdt.internal.core.model.CModelOperation.runOperation(CModelOperation.java:644)
+	at org.eclipse.cdt.internal.core.model.PathEntryManager.setRawPathEntries(PathEntryManager.java:651)
+	at org.eclipse.cdt.core.model.CoreModel.setRawPathEntries(CoreModel.java:922)
+	at org.eclipse.cdt.internal.core.model.CProject.setRawPathEntries(CProject.java:414)
+	at org.eclipse.cdt.cmake.core.CMakeProjectGenerator.generate(CMakeProjectGenerator.java:86)
+	at com.espressif.idf.ui.templates.IDFProjectGenerator.generate(IDFProjectGenerator.java:65)
+	at org.eclipse.tools.templates.ui.TemplateWizard$1.execute(TemplateWizard.java:95)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.lambda$0(WorkspaceModifyOperation.java:110)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:131)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SUBENTRY 1 org.eclipse.cdt.core 4 969 2022-09-18 01:33:42.865
+!MESSAGE Element blink_cxx does not exist.
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:33:42.870
+!MESSAGE Source Template path:C:\Espressif\frameworks\esp-idf-v4.4\workspace\blink_cxx
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:34:00.296
+!MESSAGE Source Template path:C:\Espressif\frameworks\esp-idf-v4.4\workspace\blacksigma-main
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 01:34:11.580
+!MESSAGE Indexed 'blacksigma-main' (876 sources, 195 headers) in 11.1 sec: 58,536 declarations; 244,683 references; 5,415 unresolved inclusions; 1,198 syntax errors; 85,240 unresolved names (22%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:36:53.922
+!MESSAGE Source Template path:C:\Users\sherd\Downloads\esp-idf\examples\protocols\mqtt\tcp
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-18 01:36:56.356
+!MESSAGE Indexed 'tcp' (1 sources, 0 headers) in 2.38 sec: 21 declarations; 110 references; 19 unresolved inclusions; 0 syntax errors; 44 unresolved names (25%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:38:07.560
+!MESSAGE Project Name:: tcp
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:38:07.561
+!MESSAGE Project:: P/tcp
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:44:18.163
+!MESSAGE Project Name:: tcp
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:44:18.163
+!MESSAGE Project:: P/tcp
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:45:20.768
+!MESSAGE Project Name:: tcp
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:45:20.768
+!MESSAGE Project:: P/tcp
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:45:38.966
+!MESSAGE Project Name:: tcp
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:45:38.967
+!MESSAGE Project:: P/tcp
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:45:42.015
+!MESSAGE Deleting build folder C:\Users\sherd\Downloads\esp-idf\examples\protocols\mqtt\tcp\build
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:45:42.549
+!MESSAGE Renaming C:\Users\sherd\Downloads\esp-idf\examples\protocols\mqtt\tcp\sdkconfig status...true
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:45:44.627
+!MESSAGE Project Name:: tcp
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:45:44.627
+!MESSAGE Project:: P/tcp
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:45:44.628
+!MESSAGE sdkconfig.json file couldnt find {0}
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:45:47.198
+!MESSAGE Project Name:: tcp
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:45:47.198
+!MESSAGE Project:: P/tcp
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:45:47.198
+!MESSAGE sdkconfig.json file couldnt find {0}
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:45:59.392
+!MESSAGE Project Name:: tcp
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:45:59.392
+!MESSAGE Project:: P/tcp
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:45:59.393
+!MESSAGE sdkconfig.json file couldnt find {0}
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:46:02.329
+!MESSAGE Project Name:: tcp
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:46:02.329
+!MESSAGE Project:: P/tcp
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-18 01:46:02.330
+!MESSAGE sdkconfig.json file couldnt find {0}
+!SESSION 2022-09-19 13:48:14.441 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.14.1
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data @noDefault
+
+!ENTRY org.eclipse.ui 2 0 2022-09-19 13:50:33.133
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-19 13:50:33.133
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.ui 2 0 2022-09-19 13:50:33.752
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2022-09-19 13:50:33.752
+!MESSAGE Commands should really have a category: plug-in='com.espressif.idf.ui', id='com.espressif.commands.cleanCommand', categoryId='com.espressif.commands.category'
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-19 13:50:38.658
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-19 13:50:38.658
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.debug.gdbjtag.openocd.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-19 13:50:38.658
+!MESSAGE Enablement expression is missing for config provider for com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2022-09-19 13:50:38.658
+!MESSAGE Enablement expression is missing for descriptor type com.espressif.idf.launch.serial.core.idf.descriptorType
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 13:50:38.708
+!MESSAGE Ignoring esp_idf.json settings as it was configured earilier.
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-09-19 13:50:38.711
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\sherd'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 13:50:38.803
+!MESSAGE Initializing toolchain...
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 13:50:38.810
+!MESSAGE idf_tools.py path: C:/Espressif/frameworks/esp-idf-v4.4//tools/idf_tools.py
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 13:50:38.813
+!MESSAGE [C:\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe, C:/Espressif/frameworks/esp-idf-v4.4//tools/idf_tools.py, export, --format=key-value]
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 13:50:39.502
+!MESSAGE idf_tools.py export output: WARNING: Git was not found
+OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\share\openocd\scripts
+IDF_CCACHE_ENABLE=1
+IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf4.4_py3.8_env
+PATH=C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 13:50:39.503
+!MESSAGE PATH: C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 13:50:39.504
+!MESSAGE [C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;%PATH%]
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 13:50:39.536
+!MESSAGE Project Name:: tcp
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 13:50:39.536
+!MESSAGE Project:: P/tcp
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 13:51:14.027
+!MESSAGE error: cannot spawn git: No such file or directory
+fatal: Could not run 'git status --porcelain=2' in submodule vendor/c_exception
+fatal: 'git status --porcelain=2' failed in submodule components/cmock/CMock
+WARNING: Git version unavailable, reading from source
+ESP-IDF v4.4.0
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 14:15:57.822
+!MESSAGE Source Template path:C:\Users\sherd\Downloads\esp-idf\examples\peripherals\i2c\i2c_simple
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-19 14:16:00.113
+!MESSAGE Indexed 'i2c_simple' (1 sources, 0 headers) in 2.24 sec: 24 declarations; 49 references; 3 unresolved inclusions; 0 syntax errors; 19 unresolved names (21%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 14:16:21.311
+!MESSAGE Project Name:: i2c_simple
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 14:16:21.312
+!MESSAGE Project:: P/i2c_simple
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 14:16:21.313
+!MESSAGE sdkconfig.json file couldnt find {0}
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 14:18:58.643
+!MESSAGE Project Name:: i2c_simple
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 14:18:58.643
+!MESSAGE Project:: P/i2c_simple
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 14:19:06.874
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4\tools\idf.py -p COM4 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 14:19:37.366
+!MESSAGE [C:\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe, C:\Espressif\frameworks\esp-idf-v4.4\tools\idf.py, monitor, -p, \\.\COM4, --print-filter=]
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 14:19:37.368
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=DESKTOP-L0O8M4F, PATH=C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\PROGRA~2\FANUC\Shared\UTILIT~1;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\PROGRA~2\FANUC\WinOLPC\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Users\sherd\AppData\Local\Microsoft\WindowsApps;C:\Users\sherd\AppData\Local\GitHubDesktop\bin;C:\Espressif\tools\idf-git\2.34.2\cmd, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\, SystemDrive=C:, OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\share\openocd\scripts, IDF_CCACHE_ENABLE=1, USERNAME=sherd, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, OneDriveConsumer=C:\Users\sherd\OneDrive, SW_SIM_TEMP=C:\ProgramData\SOLIDWORKS\SW_net_sim_temp\, ROSE_DB=C:\PROGRA~2\FANUC\Shared\Schemas, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\sherd, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 94 Stepping 3, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, =::=::\, LOCALAPPDATA=C:\Users\sherd\AppData\Local, USERDOMAIN=DESKTOP-L0O8M4F, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\DESKTOP-L0O8M4F, IDF_TOOLS_PATH=C:\Espressif, OneDrive=C:\Users\sherd\OneDrive, APPDATA=C:\Users\sherd\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\PROGRA~2\FANUC\Shared\UTILIT~1;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\PROGRA~2\FANUC\WinOLPC\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Users\sherd\AppData\Local\Microsoft\WindowsApps;C:\Users\sherd\AppData\Local\GitHubDesktop\bin, OS=Windows_NT, COMPUTERNAME=DESKTOP-L0O8M4F, IDF_PATH=C:/Espressif/frameworks/esp-idf-v4.4/, SW_SIM_HYDRA=C:\Program Files\Common Files\SolidWorks Shared\Simulation Worker Agent\, PROCESSOR_REVISION=5e03, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, SystemRoot=C:\Windows, TEMP=C:\Users\sherd\AppData\Local\Temp, PYTHONUNBUFFERED=1, HOMEDRIVE=C:, USERPROFILE=C:\Users\sherd, TMP=C:\Users\sherd\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=8, SW_SIM_MPIT=INTELMPI, IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf4.4_py3.8_env}
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 14:19:37.369
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=DESKTOP-L0O8M4F, PATH=C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\PROGRA~2\FANUC\Shared\UTILIT~1;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\PROGRA~2\FANUC\WinOLPC\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Users\sherd\AppData\Local\Microsoft\WindowsApps;C:\Users\sherd\AppData\Local\GitHubDesktop\bin;C:\Espressif\tools\idf-git\2.34.2\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\PROGRA~2\FANUC\Shared\UTILIT~1;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\PROGRA~2\FANUC\WinOLPC\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Users\sherd\AppData\Local\Microsoft\WindowsApps;C:\Users\sherd\AppData\Local\GitHubDesktop\bin, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\, SystemDrive=C:, OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\share\openocd\scripts, IDF_CCACHE_ENABLE=1, USERNAME=sherd, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, OneDriveConsumer=C:\Users\sherd\OneDrive, SW_SIM_TEMP=C:\ProgramData\SOLIDWORKS\SW_net_sim_temp\, ROSE_DB=C:\PROGRA~2\FANUC\Shared\Schemas, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\sherd, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 94 Stepping 3, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, =::=::\, LOCALAPPDATA=C:\Users\sherd\AppData\Local, USERDOMAIN=DESKTOP-L0O8M4F, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\DESKTOP-L0O8M4F, TERM=vt102, IDF_TOOLS_PATH=C:\Espressif, OneDrive=C:\Users\sherd\OneDrive, APPDATA=C:\Users\sherd\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, OS=Windows_NT, COMPUTERNAME=DESKTOP-L0O8M4F, IDF_PATH=C:/Espressif/frameworks/esp-idf-v4.4/, SW_SIM_HYDRA=C:\Program Files\Common Files\SolidWorks Shared\Simulation Worker Agent\, PROCESSOR_REVISION=5e03, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, SystemRoot=C:\Windows, TEMP=C:\Users\sherd\AppData\Local\Temp, PYTHONUNBUFFERED=1, HOMEDRIVE=C:, USERPROFILE=C:\Users\sherd, TMP=C:\Users\sherd\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=8, SW_SIM_MPIT=INTELMPI, IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf4.4_py3.8_env}
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 15:34:30.533
+!MESSAGE Source Template path:C:\Users\sherd\Downloads\esp-idf\examples\peripherals\i2c\i2c_self_test
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-19 15:34:32.926
+!MESSAGE Indexed 'i2c_self_test' (1 sources, 0 headers) in 2.35 sec: 29 declarations; 114 references; 4 unresolved inclusions; 0 syntax errors; 37 unresolved names (21%)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 15:39:41.220
+!MESSAGE Project Name:: i2c_self_test
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 15:39:41.220
+!MESSAGE Project:: P/i2c_self_test
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 15:39:46.525
+!MESSAGE C:\Espressif\frameworks\esp-idf-v4.4\tools\idf.py -p COM4 flash
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 15:40:11.405
+!MESSAGE [C:\Espressif\python_env\idf4.4_py3.8_env\Scripts\python.exe, C:\Espressif\frameworks\esp-idf-v4.4\tools\idf.py, monitor, -p, \\.\COM4, --print-filter=]
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 15:40:11.407
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=DESKTOP-L0O8M4F, PATH=C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\PROGRA~2\FANUC\Shared\UTILIT~1;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\PROGRA~2\FANUC\WinOLPC\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Users\sherd\AppData\Local\Microsoft\WindowsApps;C:\Users\sherd\AppData\Local\GitHubDesktop\bin;C:\Espressif\tools\idf-git\2.34.2\cmd, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\, SystemDrive=C:, OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\share\openocd\scripts, IDF_CCACHE_ENABLE=1, USERNAME=sherd, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, OneDriveConsumer=C:\Users\sherd\OneDrive, SW_SIM_TEMP=C:\ProgramData\SOLIDWORKS\SW_net_sim_temp\, ROSE_DB=C:\PROGRA~2\FANUC\Shared\Schemas, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\sherd, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 94 Stepping 3, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, =::=::\, LOCALAPPDATA=C:\Users\sherd\AppData\Local, USERDOMAIN=DESKTOP-L0O8M4F, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\DESKTOP-L0O8M4F, IDF_TOOLS_PATH=C:\Espressif, OneDrive=C:\Users\sherd\OneDrive, APPDATA=C:\Users\sherd\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, Path=C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\PROGRA~2\FANUC\Shared\UTILIT~1;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\PROGRA~2\FANUC\WinOLPC\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Users\sherd\AppData\Local\Microsoft\WindowsApps;C:\Users\sherd\AppData\Local\GitHubDesktop\bin, OS=Windows_NT, COMPUTERNAME=DESKTOP-L0O8M4F, IDF_PATH=C:/Espressif/frameworks/esp-idf-v4.4/, SW_SIM_HYDRA=C:\Program Files\Common Files\SolidWorks Shared\Simulation Worker Agent\, PROCESSOR_REVISION=5e03, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, SystemRoot=C:\Windows, TEMP=C:\Users\sherd\AppData\Local\Temp, PYTHONUNBUFFERED=1, HOMEDRIVE=C:, USERPROFILE=C:\Users\sherd, TMP=C:\Users\sherd\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=8, SW_SIM_MPIT=INTELMPI, IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf4.4_py3.8_env}
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 15:40:11.408
+!MESSAGE {USERDOMAIN_ROAMINGPROFILE=DESKTOP-L0O8M4F, PATH=C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch2-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch2-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.28.51-esp-20191205\esp32ulp-elf-binutils\bin;C:\Espressif\tools\esp32s2ulp-elf\2.28.51-esp-20191205\esp32s2ulp-elf-binutils\bin;C:\Espressif\tools\cmake\3.20.3\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts;C:\Espressif\frameworks\esp-idf-v4.4\tools;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\PROGRA~2\FANUC\Shared\UTILIT~1;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\PROGRA~2\FANUC\WinOLPC\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Users\sherd\AppData\Local\Microsoft\WindowsApps;C:\Users\sherd\AppData\Local\GitHubDesktop\bin;C:\Espressif\tools\idf-git\2.34.2\cmd;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\PROGRA~2\FANUC\Shared\UTILIT~1;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\PROGRA~2\FANUC\WinOLPC\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files (x86)\STMicroelectronics\STM32 ST-LINK Utility\ST-LINK Utility;C:\Users\sherd\AppData\Local\Microsoft\WindowsApps;C:\Users\sherd\AppData\Local\GitHubDesktop\bin, PROCESSOR_LEVEL=6, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECTURE=AMD64, PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\PowerShell\Modules\, SystemDrive=C:, OPENOCD_SCRIPTS=C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20211220\openocd-esp32\share\openocd\scripts, IDF_CCACHE_ENABLE=1, USERNAME=sherd, ProgramFiles(x86)=C:\Program Files (x86), FPS_BROWSER_USER_PROFILE_STRING=Default, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, DriverData=C:\Windows\System32\Drivers\DriverData, OneDriveConsumer=C:\Users\sherd\OneDrive, SW_SIM_TEMP=C:\ProgramData\SOLIDWORKS\SW_net_sim_temp\, ROSE_DB=C:\PROGRA~2\FANUC\Shared\Schemas, ProgramData=C:\ProgramData, ProgramW6432=C:\Program Files, HOMEPATH=\Users\sherd, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 94 Stepping 3, GenuineIntel, ProgramFiles=C:\Program Files, PUBLIC=C:\Users\Public, windir=C:\Windows, =::=::\, LOCALAPPDATA=C:\Users\sherd\AppData\Local, USERDOMAIN=DESKTOP-L0O8M4F, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\DESKTOP-L0O8M4F, TERM=vt102, IDF_TOOLS_PATH=C:\Espressif, OneDrive=C:\Users\sherd\OneDrive, APPDATA=C:\Users\sherd\AppData\Roaming, CommonProgramFiles=C:\Program Files\Common Files, OS=Windows_NT, COMPUTERNAME=DESKTOP-L0O8M4F, IDF_PATH=C:/Espressif/frameworks/esp-idf-v4.4/, SW_SIM_HYDRA=C:\Program Files\Common Files\SolidWorks Shared\Simulation Worker Agent\, PROCESSOR_REVISION=5e03, CommonProgramW6432=C:\Program Files\Common Files, ComSpec=C:\Windows\system32\cmd.exe, SystemRoot=C:\Windows, TEMP=C:\Users\sherd\AppData\Local\Temp, PYTHONUNBUFFERED=1, HOMEDRIVE=C:, USERPROFILE=C:\Users\sherd, TMP=C:\Users\sherd\AppData\Local\Temp, CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files, NUMBER_OF_PROCESSORS=8, SW_SIM_MPIT=INTELMPI, IDF_PYTHON_ENV_PATH=C:\Espressif\python_env\idf4.4_py3.8_env}
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 15:42:00.268
+!MESSAGE Source Template path:C:\Users\sherd\Downloads\esp-idf\examples\peripherals\gpio\generic_gpio
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-09-19 15:42:02.957
+!MESSAGE Indexed 'generic_gpio' (1 sources, 0 headers) in 2.65 sec: 8 declarations; 50 references; 8 unresolved inclusions; 3 syntax errors; 40 unresolved names (41%)
+
+!ENTRY org.eclipse.cdt.cmake.core 1 0 2022-09-19 15:42:33.286
+!MESSAGE =Could not map C:/Espressif/frameworks/esp-idf-v4.4/tools/cmake/kconfig.cmake to a workspace resource. Did the build run in a container?
+
+!ENTRY com.espressif.idf.core 4 0 2022-09-19 15:42:33.360
+!MESSAGE C:\Users\sherd\Downloads\esp-idf\examples\peripherals\gpio\generic_gpio\build\compile_commands.json (The system cannot find the file specified)
+!STACK 0
+java.io.FileNotFoundException: C:\Users\sherd\Downloads\esp-idf\examples\peripherals\gpio\generic_gpio\build\compile_commands.json (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at com.espressif.idf.core.build.IDFBuildConfiguration.linkBuildComponents(IDFBuildConfiguration.java:439)
+	at com.espressif.idf.core.build.IDFBuildConfiguration.build(IDFBuildConfiguration.java:366)
+	at org.eclipse.cdt.core.build.CBuilder.build(CBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 15:42:33.369
+!MESSAGE L/generic_gpio/build/project_description.json couldnt find
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 15:42:33.369
+!MESSAGE L/generic_gpio/build/project_description.json couldnt find
+
+!ENTRY org.eclipse.cdt.cmake.core 1 0 2022-09-19 15:43:27.653
+!MESSAGE =Could not map C:/Espressif/frameworks/esp-idf-v4.4/tools/cmake/kconfig.cmake to a workspace resource. Did the build run in a container?
+
+!ENTRY com.espressif.idf.core 4 0 2022-09-19 15:43:27.723
+!MESSAGE C:\Users\sherd\Downloads\esp-idf\examples\peripherals\gpio\generic_gpio\build\compile_commands.json (The system cannot find the file specified)
+!STACK 0
+java.io.FileNotFoundException: C:\Users\sherd\Downloads\esp-idf\examples\peripherals\gpio\generic_gpio\build\compile_commands.json (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileReader.<init>(FileReader.java:75)
+	at com.espressif.idf.core.build.IDFBuildConfiguration.linkBuildComponents(IDFBuildConfiguration.java:439)
+	at com.espressif.idf.core.build.IDFBuildConfiguration.build(IDFBuildConfiguration.java:366)
+	at org.eclipse.cdt.core.build.CBuilder.build(CBuilder.java:45)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:232)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:281)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:334)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:337)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:389)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:410)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:516)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:413)
+	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:291)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 15:43:27.732
+!MESSAGE L/generic_gpio/build/project_description.json couldnt find
+
+!ENTRY com.espressif.idf.core 1 0 2022-09-19 15:43:27.732
+!MESSAGE L/generic_gpio/build/project_description.json couldnt find
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2022-09-19 16:16:58.804
+!MESSAGE No remedy found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-09-19 16:16:58.884
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-09-19 16:16:58.884
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:58.885
+!MESSAGE Software being installed: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:58.885
+!MESSAGE Missing requirement: Embedded C/C++ Debugging GDB Core Plug-in 5.1.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.core 5.1.0.202102181132) requires 'osgi.bundle; org.eclipse.embedcdt.packs.core 3.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-19 16:16:58.885
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:58.885
+!MESSAGE From: ESP-IDF OpenOCD Debugging 1.0.1.202208110735 (com.espressif.idf.debug.gdbjtag.openocd 1.0.1.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:58.885
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.debug.gdbjtag.core 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-19 16:16:58.885
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:58.885
+!MESSAGE From: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:58.885
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.espressif.idf.debug.gdbjtag.openocd [1.0.1.202208110735,1.0.1.202208110735]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-09-19 16:16:58.958
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-09-19 16:16:58.958
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:58.958
+!MESSAGE Software being installed: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:58.958
+!MESSAGE Missing requirement: Embedded C/C++ Debugging GDB Core Plug-in 5.1.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.core 5.1.0.202102181132) requires 'osgi.bundle; org.eclipse.embedcdt.packs.core 3.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-19 16:16:58.958
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:58.958
+!MESSAGE From: ESP-IDF OpenOCD Debugging 1.0.1.202208110735 (com.espressif.idf.debug.gdbjtag.openocd 1.0.1.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:58.958
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.debug.gdbjtag.core 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-19 16:16:58.958
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:58.958
+!MESSAGE From: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:58.958
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.espressif.idf.debug.gdbjtag.openocd [1.0.1.202208110735,1.0.1.202208110735]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-09-19 16:16:59.781
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-09-19 16:16:59.781
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:59.781
+!MESSAGE Software being installed: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:59.781
+!MESSAGE Missing requirement: Embedded C/C++ Debugging GDB Core Plug-in 5.1.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.core 5.1.0.202102181132) requires 'osgi.bundle; org.eclipse.embedcdt.packs.core 3.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-19 16:16:59.781
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:59.781
+!MESSAGE From: ESP-IDF OpenOCD Debugging 1.0.1.202208110735 (com.espressif.idf.debug.gdbjtag.openocd 1.0.1.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:59.782
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.debug.gdbjtag.core 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-19 16:16:59.782
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:59.782
+!MESSAGE From: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:59.782
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.espressif.idf.debug.gdbjtag.openocd [1.0.1.202208110735,1.0.1.202208110735]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2022-09-19 16:16:59.784
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2022-09-19 16:16:59.784
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:59.784
+!MESSAGE Software being installed: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:59.784
+!MESSAGE Missing requirement: Embedded C/C++ Debugging GDB Core Plug-in 5.1.0.202102181132 (org.eclipse.embedcdt.debug.gdbjtag.core 5.1.0.202102181132) requires 'osgi.bundle; org.eclipse.embedcdt.packs.core 3.1.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-19 16:16:59.784
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:59.784
+!MESSAGE From: ESP-IDF OpenOCD Debugging 1.0.1.202208110735 (com.espressif.idf.debug.gdbjtag.openocd 1.0.1.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:59.784
+!MESSAGE To: osgi.bundle; org.eclipse.embedcdt.debug.gdbjtag.core 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2022-09-19 16:16:59.784
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:59.784
+!MESSAGE From: Espressif IDF Plugins for Eclipse 2.6.0.202208110735 (com.espressif.idf.feature.feature.group 2.6.0.202208110735)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2022-09-19 16:16:59.784
+!MESSAGE To: org.eclipse.equinox.p2.iu; com.espressif.idf.debug.gdbjtag.openocd [1.0.1.202208110735,1.0.1.202208110735]
