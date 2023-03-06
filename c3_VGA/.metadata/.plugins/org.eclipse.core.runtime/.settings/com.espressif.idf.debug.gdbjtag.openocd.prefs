@@ -1,2 +1,0 @@
-eclipse.preferences.version=1
-gdb.client.commands=set mem inaccessible-by-default off\nset remotetimeout 20
