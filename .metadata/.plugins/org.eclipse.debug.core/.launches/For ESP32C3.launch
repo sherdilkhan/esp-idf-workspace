@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.espressif.idf.launch.serial.launchConfigurationType">
+    <booleanAttribute key="FLASH_OVER_JTAG" value="false"/>
+    <stringAttribute key="com.espressif.idf.debug.gdbjtag.openocd.jtagBoard" value="ESP32-C3 chip (via ESP USB Bridge)"/>
+    <stringAttribute key="com.espressif.idf.debug.gdbjtag.openocd.jtagFlashArguments" value="-s ${openocd_path}/share/openocd/scripts -f board/esp32c3-bridge.cfg"/>
+    <stringAttribute key="com.espressif.idf.debug.gdbjtag.openocd.jtagFlashVoltage" value="default"/>
+    <stringAttribute key="com.espressif.idf.debug.gdbjtag.openocd.jtagTarget" value="esp32c3"/>
+    <stringAttribute key="com.espressif.idf.launch.serial.core.serialFlashArguments" value="C:\Espressif\frameworks\esp-idf-v5.0.1\tools\idf.py -p ${serial_port} flash${active_core_build_dir}"/>
+    <stringAttribute key="org.eclipse.cdt.debug.core.target_arch" value="riscv32"/>
+    <stringAttribute key="org.eclipse.cdt.debug.core.target_os" value="esp32c3"/>
+    <stringAttribute key="org.eclipse.cdt.launch.ATTR_LOCATION" value="C:\Espressif\python_env\idf5.0_py3.8_env\Scripts\python.exe"/>
+    <stringAttribute key="org.eclipse.cdt.launch.ATTR_TOOL_ARGUMENTS" value="C:\Espressif\frameworks\esp-idf-v5.0.1\tools\idf.py -p ${serial_port} flash${active_core_build_dir}"/>
+    <stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="c3_intr_test"/>
+    <stringAttribute key="org.eclipse.cdt.launch.WORKING_DIRECTORY" value="${workspace_loc:/c3_intr_test}"/>
+    <booleanAttribute key="org.eclipse.debug.core.ATTR_FORCE_SYSTEM_CONSOLE_ENCODING" value="false"/>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/c3_intr_test"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="4"/>
+    </listAttribute>
+    <stringAttribute key="org.eclipse.launchbar.core.originalName" value="RTOS_Trial_Code"/>
+    <stringAttribute key="org.eclipse.launchbar.core.providerClass" value="com.espressif.idf.launch.serial.internal.SerialFlashLaunchConfigProvider"/>
+</launchConfiguration>
