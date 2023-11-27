@@ -1,6 +1,6 @@
 LaunchTargetManager/com.espressif.idf.launch.serial.core.serialFlashTarget,/arch=riscv32
 LaunchTargetManager/com.espressif.idf.launch.serial.core.serialFlashTarget,/com.espressif.idf.launch.serial.core.idfTarget=esp32c3
-LaunchTargetManager/com.espressif.idf.launch.serial.core.serialFlashTarget,/com.espressif.idf.launch.serial.core.serialPort=COM4
+LaunchTargetManager/com.espressif.idf.launch.serial.core.serialFlashTarget,/com.espressif.idf.launch.serial.core.serialPort=COM3
 LaunchTargetManager/com.espressif.idf.launch.serial.core.serialFlashTarget,/name=
 LaunchTargetManager/com.espressif.idf.launch.serial.core.serialFlashTarget,/os=esp32c3
 LaunchTargetManager/com.espressif.idf.launch.serial.core.serialFlashTarget,ESP32-C3\ DevKitM-1/arch=riscv32
@@ -15,7 +15,7 @@ LaunchTargetManager/com.espressif.idf.launch.serial.core.serialFlashTarget,esp32
 LaunchTargetManager/com.espressif.idf.launch.serial.core.serialFlashTarget,esp32-c3/os=esp32c3
 LaunchTargetManager/com.espressif.idf.launch.serial.core.serialFlashTarget,esp32/arch=riscv32
 LaunchTargetManager/com.espressif.idf.launch.serial.core.serialFlashTarget,esp32/com.espressif.idf.launch.serial.core.idfTarget=esp32c3
-LaunchTargetManager/com.espressif.idf.launch.serial.core.serialFlashTarget,esp32/com.espressif.idf.launch.serial.core.serialPort=COM4
+LaunchTargetManager/com.espressif.idf.launch.serial.core.serialFlashTarget,esp32/com.espressif.idf.launch.serial.core.serialPort=
 LaunchTargetManager/com.espressif.idf.launch.serial.core.serialFlashTarget,esp32/name=esp32
 LaunchTargetManager/com.espressif.idf.launch.serial.core.serialFlashTarget,esp32/os=esp32c3
 LaunchTargetManager/com.espressif.idf.launch.serial.core.serialFlashTarget,esp32_c3/arch=riscv32
@@ -58,6 +58,8 @@ LaunchTargetManager/configs/c3_blink\ (1)=com.espressif.idf.launch.serial.core.s
 LaunchTargetManager/configs/c3_blink_main=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/c3_hsync_sense=com.espressif.idf.launch.serial.core.serialFlashTarget\:esp32
 LaunchTargetManager/configs/c3_hsync_sense\ (1)=com.espressif.idf.launch.serial.core.serialFlashTarget\:esp32
+LaunchTargetManager/configs/c3_test9=com.espressif.idf.launch.serial.core.serialFlashTarget\:esp32
+LaunchTargetManager/configs/c3_test_9=com.espressif.idf.launch.serial.core.serialFlashTarget\:esp32
 LaunchTargetManager/configs/c3_vga_4=com.espressif.idf.launch.serial.core.serialFlashTarget\:esp32
 LaunchTargetManager/configs/hello_world_main=org.eclipse.launchbar.core.launchTargetType.local\:Local
 LaunchTargetManager/configs/hello_world_main\ Configuration=org.eclipse.launchbar.core.launchTargetType.local\:Local
@@ -94,6 +96,8 @@ com.espressif.idf.launch.serial.core.idf.descriptorType\:c3_hsync_sense/activeLa
 com.espressif.idf.launch.serial.core.idf.descriptorType\:c3_hsync_sense/activeLaunchTarget=com.espressif.idf.launch.serial.core.serialFlashTarget\:esp32
 com.espressif.idf.launch.serial.core.idf.descriptorType\:c3_intr_test/activeLaunchTarget=com.espressif.idf.launch.serial.core.serialFlashTarget\:esp32
 com.espressif.idf.launch.serial.core.idf.descriptorType\:c3_pixel_throw/activeLaunchTarget=com.espressif.idf.launch.serial.core.serialFlashTarget\:esp32
+com.espressif.idf.launch.serial.core.idf.descriptorType\:c3_test9/activeLaunchTarget=com.espressif.idf.launch.serial.core.serialFlashTarget\:esp32
+com.espressif.idf.launch.serial.core.idf.descriptorType\:c3_test_9/activeLaunchTarget=com.espressif.idf.launch.serial.core.serialFlashTarget\:esp32
 com.espressif.idf.launch.serial.core.idf.descriptorType\:c3_vga_3/activeLaunchTarget=com.espressif.idf.launch.serial.core.serialFlashTarget\:esp32
 com.espressif.idf.launch.serial.core.idf.descriptorType\:c3_vga_4/activeLaunchTarget=com.espressif.idf.launch.serial.core.serialFlashTarget\:esp32
 com.espressif.idf.launch.serial.core.idf.descriptorType\:c3_vga_5/activeLaunchTarget=com.espressif.idf.launch.serial.core.serialFlashTarget\:esp32
@@ -106,7 +110,7 @@ com.espressif.idf.launch.serial.core.idf.descriptorType\:i2c_simple/activeLaunch
 com.espressif.idf.launch.serial.core.idf.descriptorType\:launchConfiguration\ (1)/activeLaunchTarget=com.espressif.idf.launch.serial.core.serialFlashTarget\:esp
 com.espressif.idf.launch.serial.core.idf.descriptorType\:tcp/activeLaunchTarget=com.espressif.idf.launch.serial.core.serialFlashTarget\:esp32_c3
 com.espressif.idf.launch.serial.core.idf.descriptorType\:test_26mar/activeLaunchTarget=com.espressif.idf.launch.serial.core.serialFlashTarget\:esp32
-configDescList=com.espressif.idf.launch.serial.core.idf.descriptorType\:RTOS,com.espressif.idf.launch.serial.core.idf.descriptorType\:VGA Projects,com.espressif.idf.launch.serial.core.idf.descriptorType\:Wifi
+configDescList=org.eclipse.cdt.debug.core.coreBuildDescriptorType\:c3_vsync_test1_main,com.espressif.idf.launch.serial.core.idf.descriptorType\:c3_test9
 eclipse.preferences.version=1
 org.eclipse.cdt.debug.core.coreBuildDescriptorType\:c3_VGA_2_main/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.cdt.debug.core.coreBuildDescriptorType\:c3_blink_main/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
@@ -119,6 +123,7 @@ org.eclipse.cdt.debug.core.coreBuildDescriptorType\:c3_vga_4_main/activeLaunchTa
 org.eclipse.cdt.debug.core.coreBuildDescriptorType\:c3_vga_5_main/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.cdt.debug.core.coreBuildDescriptorType\:c3_vga_hsync_main/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.cdt.debug.core.coreBuildDescriptorType\:c3_vga_out_main/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.cdt.debug.core.coreBuildDescriptorType\:c3_vsync_test1_main/activeLaunchMode=run
 org.eclipse.cdt.debug.core.coreBuildDescriptorType\:c3_vsync_test1_main/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
 org.eclipse.cdt.debug.core.coreBuildDescriptorType\:hello_world_main/activeLaunchMode=run
 org.eclipse.cdt.debug.core.coreBuildDescriptorType\:hello_world_main/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
