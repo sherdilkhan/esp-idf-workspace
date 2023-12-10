@@ -1,0 +1,14 @@
+# put here your custom config value
+menu "Example Configuration"
+config ESP_WIFI_SSID
+    string "WiFi SSID"
+    default "sherdil"
+    help
+	SSID (network name) for the example to connect to.
+
+config ESP_WIFI_PASSWORD
+    string "WiFi Password"
+    default "112233445566"
+    help
+	WiFi password (WPA or WPA2) for the example to use.
+endmenu
