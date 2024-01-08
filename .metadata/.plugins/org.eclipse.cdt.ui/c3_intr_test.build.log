@@ -1,2 +1,0 @@
-C:\Espressif\python_env\idf5.0_py3.8_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.0.1/\components\partition_table\gen_esp32part.py C:\Users\sherd\Documents\GitHub\esp-idf-workspace\c3_intr_test\build\partition_table\partition-table.bin
-Total time taken to build the project: 2,245 ms

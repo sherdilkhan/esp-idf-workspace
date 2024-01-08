@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="SerialSettingsPage">
-		<item key="idf.monitor.project" value="uart_tx_oneChar"/>
+		<item key="idf.monitor.project" value="ESP32S3_Test"/>
 		<item key="cdtserial.portName" value="COM11"/>
 		<item key="idf.monitor.filter" value=""/>
 	</section>

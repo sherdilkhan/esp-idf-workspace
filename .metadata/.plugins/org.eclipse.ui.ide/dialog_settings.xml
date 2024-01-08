@@ -1,51 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="BasicNewProjectResourceWizard">
-	</section>
-	<section name="ExternalProjectImportWizard">
-		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
-		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
-		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
-		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
-		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
-		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="C:\Espressif\frameworks\esp-idf-v4.4\workspace"/>
-		</list>
-		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
-			<item value=""/>
-		</list>
-	</section>
-	<section name="ChooseWorkspaceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="574"/>
-		<item key="DIALOG_Y_ORIGIN" value="236"/>
-	</section>
-	<section name="WORKBENCH_SETTINGS">
-		<list key="ENABLED_TRANSFERS">
-		</list>
-	</section>
 	<section name="SmartImportWizard">
 		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
-			<item value="C:\Users\sherd\Documents\GitHub\esp-idf\VGA\c3_vsync_test1\main"/>
-			<item value="C:\Users\sherd\Documents\GitHub\esp-idf-workspace"/>
+			<item value="C:\Users\sherd\Documents\GitHub\esp-idf\SIMS_IOT_DEVICES"/>
+			<item value="C:\Users\sherd\Documents\GitHub\esp-idf"/>
 		</list>
 	</section>
-	<section name="CleanDialogSettings">
-		<item key="TOGGLE_SELECTED" value="false"/>
-		<item key="DIALOG_WIDTH" value="741"/>
-		<item key="DIALOG_HEIGHT" value="442"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.6|0|WINDOWS|1|-32|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
-	</section>
-	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="com.espressif.idf.ui.new.project.wizard"/>
-		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="com.espressif.idf.ui.new.wizard.category"/>
-		</list>
-	</section>
-	<section name="org.eclipse.ui.internal.ide.dialogs.ProjectContentsLocationArea">
-		<item key="OUTSIDE_LOCATION" value="C:\Users\sherd\Documents\GitHub\esp-idf\SIMS_IOT_DEVICES\wifi_con"/>
+	<section name="BasicNewProjectResourceWizard">
 	</section>
 </section>
