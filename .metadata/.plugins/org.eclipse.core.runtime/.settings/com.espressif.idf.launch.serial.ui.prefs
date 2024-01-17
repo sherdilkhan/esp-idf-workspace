@@ -1,2 +1,2 @@
-com.espressif.idf.launch.serial.core.serialPort=COM11
+com.espressif.idf.launch.serial.core.serialPort=
 eclipse.preferences.version=1

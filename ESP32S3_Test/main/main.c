@@ -4,7 +4,7 @@
 
 void app_main(void)
 {
-    while (1) {
+    while (true) {
         printf("Hello from app_main!\n");
         sleep(1);
     }
