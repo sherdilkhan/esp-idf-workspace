@@ -19,4 +19,13 @@
 		<item key="DIALOG_HEIGHT" value="498"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-27|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
+	<section name="BasicNewProjectResourceWizard">
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="com.espressif.idf.ui.new.project.wizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="com.espressif.idf.ui.new.wizard.category"/>
+		</list>
+	</section>
 </section>

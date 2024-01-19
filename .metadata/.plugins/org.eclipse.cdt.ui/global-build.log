@@ -1,1 +1,27 @@
-Build not configured correctly
+ninja clean
+[1/2] Cleaning additional files...
+[2/2] Cleaning all built files...
+Cleaning... 933 files.
+Build complete
+Building in: C:\Users\sherd\Documents\GitHub\esp-idf\hello_world\build
+cmake --build . -- -v
+[1/4] cmd.exe /C "cd /D C:\Users\sherd\Documents\GitHub\esp-idf\hello_world\build\esp-idf\esptool_py && python C:/Espressif/frameworks/esp-idf-v5.1.2/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/sherd/Documents/GitHub/esp-idf/hello_world/build/partition_table/partition-table.bin C:/Users/sherd/Documents/GitHub/esp-idf/hello_world/build/hello_world.bin"
+hello_world.bin binary size 0x31640 bytes. Smallest app partition is 0x100000 bytes. 0xce9c0 bytes (81%) free.
+[2/4] cmd.exe /C "cd /D C:\Users\sherd\Documents\GitHub\esp-idf\hello_world\build\bootloader && C:\Espressif\tools\cmake\3.24.0\bin\cmake.exe --build ."
+[1/1] cmd.exe /C "cd /D C:\Users\sherd\Documents\GitHub\esp-idf\hello_world\build\bootloader\esp-idf\esptool_py && python C:/Espressif/frameworks/esp-idf-v5.1.2/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 C:/Users/sherd/Documents/GitHub/esp-idf/hello_world/build/bootloader/bootloader.bin"
+Bootloader binary size 0x51c0 bytes. 0x2e40 bytes (36%) free.
+Build complete (0 errors, 0 warnings): C:\Users\sherd\Documents\GitHub\esp-idf\hello_world\build
+C:\Espressif\python_env\idf5.1_py3.12_env\Scripts\python.exe C:\Espressif\frameworks\esp-idf-v5.1.2\tools\idf_size.py C:/Users/sherd/Documents/GitHub/esp-idf/hello_world/build/hello_world.map
+Total sizes:
+Used static IRAM:   54198 bytes ( 308042 remain, 15.0% used)
+      .text size:   53171 bytes
+   .vectors size:    1027 bytes
+Used stat D/IRAM:   12500 bytes ( 333356 remain, 3.6% used)
+      .data size:   10364 bytes
+      .bss  size:    2136 bytes
+Used Flash size :  137639 bytes
+           .text:   96919 bytes
+         .rodata:   40464 bytes
+Total image size:  202201 bytes (.bin may be padded larger)
+C:\Espressif\python_env\idf5.1_py3.12_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.1.2/\components\partition_table\gen_esp32part.py C:\Users\sherd\Documents\GitHub\esp-idf\hello_world\build\partition_table\partition-table.bin
+Total time taken to build the project: 1,017 ms
