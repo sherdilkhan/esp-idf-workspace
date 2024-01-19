@@ -8,7 +8,9 @@
                 "${config:idf.espIdfPathWin}/components/**",
                 "${config:idf.espAdfPath}/components/**",
                 "${config:idf.espAdfPathWin}/components/**",
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "C:/Espressif/frameworks/esp-idf-v5.1.2/components/freertos/FreeRTOS-Kernel-SMP/include",
+                "C:\\Espressif\\frameworks\\esp-idf-v5.1.2\\components/**"
             ],
             "browse": {
                 "path": [

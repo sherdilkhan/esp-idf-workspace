@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "S3_BLE_1",
-    "project_version":    "3b41e51-dirty",
+    "project_version":    "fddb8bf8-dirty",
     "project_path":       "C:/Users/sherd/Documents/GitHub/esp-idf/Sanbox/S3_BLE_1",
     "idf_path":           "C:/Espressif/frameworks/esp-idf-v5.1.2",
     "build_dir":          "C:/Users/sherd/Documents/GitHub/esp-idf/Sanbox/S3_BLE_1/build",
