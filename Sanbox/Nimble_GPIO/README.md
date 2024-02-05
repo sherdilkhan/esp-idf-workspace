@@ -4,16 +4,16 @@
 This repository contains code for a Bluetooth Low Energy (BLE) server implemented on the ESP32 platform using the ESP-IDF framework. The server exposes a custom GATT service allowing communication with a BLE client. Additionally, the server controls a GPIO pin based on commands received from the client.
 
 # Table of Contents
-1. Table of Contents
-2. Introduction
-3. Dependencies
-4. Features
-5. GPIO Configuration
-6. BLE Service Definition
-7. Callbacks
-8. Usage
-9. Task and Threading
-10. License
+
+1. Introduction
+2. Dependencies
+3. Features
+4. GPIO Configuration
+5. BLE Service Definition
+6. Callbacks
+7. Usage
+8. Task and Threading
+9. License
 
 # Introduction
 This project sets up an ESP32 as a BLE server that communicates with a BLE client. The server exposes a custom GATT service with characteristics for reading and writing values. The server also controls a GPIO pin based on the commands received from the client.
