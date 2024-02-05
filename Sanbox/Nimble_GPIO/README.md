@@ -45,5 +45,10 @@ The server responds to read and write requests, controlling the GPIO pin based o
 # Task and Threading
 The code includes a FreeRTOS task (host_task) responsible for running the NimBLE host stack. The task is initiated in the app_main function.
 
+<<<<<<< HEAD
 # License
 This code is released under the MIT License. Feel free to use, modify, and distribute it as needed. Contributions are welcome.
+=======
+License
+This code is released under the MIT License. Feel free to use, modify, and distribute it as needed. Contributions are welcome.
+>>>>>>> 53a65d6f08317e549c7d1a34ba872ec987e1ff11
