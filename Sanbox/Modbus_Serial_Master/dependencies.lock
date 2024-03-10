@@ -1,0 +1,15 @@
+dependencies:
+  espressif/esp-modbus:
+    component_hash: 7ef7d78fa27bddea140054917e571b20e113bf1febf943bb2ee846d10f769538
+    source:
+      service_url: https://api.components.espressif.com/
+      type: service
+    version: 1.0.13
+  idf:
+    component_hash: null
+    source:
+      type: idf
+    version: 5.1.2
+manifest_hash: d5c3f2727ca591e020acb985e5e697b7fcebba33f591861bf0eb1b53ddb1066b
+target: esp32s3
+version: 1.0.0

@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "Nimble_test_1",
-    "project_version":    "f93137bf-dirty",
+    "project_version":    "7e57bd32-dirty",
     "project_path":       "C:/Users/sherd/Documents/GitHub/esp-idf/Sanbox/Nimble_GPIO",
     "idf_path":           "C:/Espressif/frameworks/esp-idf-v5.1.2",
     "build_dir":          "C:/Users/sherd/Documents/GitHub/esp-idf/Sanbox/Nimble_GPIO/build",

@@ -21,7 +21,8 @@
 char *TAG = "BLE-Server";
 uint8_t ble_addr_type;
 
-char blesend[50] ;
+char blesend[50];
+char blerec[50];
 void ble_app_advertise(void);
 
 // GPIO Configuration
@@ -41,30 +42,33 @@ void gpio_init(){
 // Call Back Registered with BLE GATT Layer to handle write operations (Client to Server)
 static int device_write(uint16_t conn_handle, uint16_t attr_handle, struct ble_gatt_access_ctxt *ctxt, void *arg)
 {
-    //printf("Data from the client: %.*s\n", ctxt->om->om_len, ctxt->om->om_data);
-    //return 0;
-    char received_value;
-    memcpy(&received_value, ctxt->om->om_data, sizeof(char));
+    
     printf("Data from the client: %.*s\n", ctxt->om->om_len, ctxt->om->om_data);
+    memcpy(&blerec, ctxt->om->om_data, sizeof(char));
+
+    // Check if the length of ctxt->om->om_data is greater than or equal to 5
+    if (strlen((char *)ctxt->om->om_data) >= 5) {
+    // Copy the relevant portion of ctxt->om->om_data starting from the 5th character into blesend
+        strcpy(blerec, (char *)(ctxt->om->om_data) + 5);
+        printf("blesend after shift: %s\n", blerec);
+    }
+    
     esp_err_t err; // For Error Log
     // Perform GPIO control based on the received value
-    switch (received_value) {
-        case '2':   // "2" is ASCII Char, from Client we will be sending "32" in Hex
+    if (strcmp(blerec, "123") == 0) {
             err = gpio_set_level(GPIO_OUTPUT_PIN, 0);
             if (err != ESP_OK) {
             ESP_LOGE(TAG, "Failed to set GPIO level to 0. Error code: %d", err);
-            // Handle the error as needed
-    }
-            break;
-        case '3':   // "3" is ASCII Char, from Client we will be sending "33" in Hex
-            err = gpio_set_level(GPIO_OUTPUT_PIN, 1);
-            if (err != ESP_OK) { 
-            ESP_LOGE(TAG, "Failed to set GPIO level to 1. Error code: %d", err);
             }
-            break;
-            // Add more cases as needed
-        default:
-            break;
+
+    } else if (strcmp(blerec, "124") == 0) {
+        err = gpio_set_level(GPIO_OUTPUT_PIN, 1);
+        if (err != ESP_OK) { 
+        ESP_LOGE(TAG, "Failed to set GPIO level to 1. Error code: %d", err);
+        }
+
+    } else {
+    // Default case
     }
     return 0;
 }
