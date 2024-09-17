@@ -37,6 +37,7 @@ C:/Users/sherd/Documents/GitHub/esp-idf/Sanbox/Nimble_GPIO/build/esp-idf/bt/libb
 C:/Users/sherd/Documents/GitHub/esp-idf/Sanbox/Nimble_GPIO/build/esp-idf/unity/libunity.a
 C:/Users/sherd/Documents/GitHub/esp-idf/Sanbox/Nimble_GPIO/build/esp-idf/cmock/libcmock.a
 C:/Users/sherd/Documents/GitHub/esp-idf/Sanbox/Nimble_GPIO/build/esp-idf/console/libconsole.a
+C:/Users/sherd/Documents/GitHub/esp-idf/Sanbox/Nimble_GPIO/build/esp-idf/esp-modbus-master/libesp-modbus-master.a
 C:/Users/sherd/Documents/GitHub/esp-idf/Sanbox/Nimble_GPIO/build/esp-idf/http_parser/libhttp_parser.a
 C:/Users/sherd/Documents/GitHub/esp-idf/Sanbox/Nimble_GPIO/build/esp-idf/esp-tls/libesp-tls.a
 C:/Users/sherd/Documents/GitHub/esp-idf/Sanbox/Nimble_GPIO/build/esp-idf/esp_adc/libesp_adc.a
@@ -56,6 +57,7 @@ C:/Users/sherd/Documents/GitHub/esp-idf/Sanbox/Nimble_GPIO/build/esp-idf/wear_le
 C:/Users/sherd/Documents/GitHub/esp-idf/Sanbox/Nimble_GPIO/build/esp-idf/sdmmc/libsdmmc.a
 C:/Users/sherd/Documents/GitHub/esp-idf/Sanbox/Nimble_GPIO/build/esp-idf/fatfs/libfatfs.a
 C:/Users/sherd/Documents/GitHub/esp-idf/Sanbox/Nimble_GPIO/build/esp-idf/json/libjson.a
+C:/Users/sherd/Documents/GitHub/esp-idf/Sanbox/Nimble_GPIO/build/esp-idf/mb_example_common/libmb_example_common.a
 C:/Users/sherd/Documents/GitHub/esp-idf/Sanbox/Nimble_GPIO/build/esp-idf/mqtt/libmqtt.a
 C:/Users/sherd/Documents/GitHub/esp-idf/Sanbox/Nimble_GPIO/build/esp-idf/perfmon/libperfmon.a
 C:/Users/sherd/Documents/GitHub/esp-idf/Sanbox/Nimble_GPIO/build/esp-idf/spiffs/libspiffs.a

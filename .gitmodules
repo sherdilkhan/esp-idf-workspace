@@ -1,0 +1,3 @@
+[submodule "Projects/esp32s3_ws00/components/components/bmp280"]
+	path = Projects/esp32s3_ws00/components/components/bmp280
+	url = https://github.com/UncleRus/esp-idf-lib.git
