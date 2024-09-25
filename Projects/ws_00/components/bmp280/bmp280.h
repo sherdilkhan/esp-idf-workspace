@@ -139,6 +139,19 @@ typedef struct {
     uint8_t   id;       //!< Chip ID
 } bmp280_t;
 
+
+/**
+ * @brief Task to initialize and read data from the BMP280 sensor.
+ * 
+ * This task initializes the BMP280 or BME280 sensor and continuously reads
+ * temperature, pressure, and optionally humidity (if it's a BME280 sensor).
+ * It prints the sensor data every 500ms.
+ * 
+ * @param pvParameters Parameters to pass to the task (unused in this case).
+ */
+void bmp280_test(void *pvParameters);
+
+
 /**
  * @brief Initialize device descriptor
  *
